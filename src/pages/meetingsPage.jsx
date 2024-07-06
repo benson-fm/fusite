@@ -100,12 +100,12 @@ export function MeetingsPage() {
                     </div>
                 </div>
                 <div style={{ position: 'relative', width: '100%', height: '100vh', overflow: 'hidden' }}>
-    <div className="absolute" style={{ top: '0', right: '-300px', width: '600px' }}>
-        <img src={FusionLogo} alt="Fusion Logo"
-            style={{ width: '100%', height: 'auto', transform: 'rotate(-45deg)', opacity: 1 }}
-            className="object-cover" />
-    </div>
-</div>
+                    <div className="absolute" style={{ top: '0', right: '-300px', width: '600px' }}>
+                    <img src={FusionLogo} alt="Fusion Logo"
+                        style={{ width: '100%', height: 'auto', transform: 'rotate(-45deg)', opacity: 1 }}
+                        className="object-cover" />
+                    </div>
+                </div>
         </div>
 
             
