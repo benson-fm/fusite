@@ -66,7 +66,7 @@ const AboutUs = () => {
                             <h3 className="text-black text-xl tracking-[.20em] mb-4">PASS</h3>
                             <p className="text-black mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
-                        <a href="https://www.instagram.com/passatuci/" className="bg-yellow-500 text-black py-2 px-4 border-2 border-black tracking-[.20em]">BUTTON</a>
+                        <a href="https://www.instagram.com/passatuci/" className="bg-yellow-500 text-black py-2 px-4 border-2 border-black tracking-[.20em] inline-block hover:scale-105 transition-transform duration-200">BUTTON</a>
                     </div>
                     
                     <div className="flex flex-col items-center text-center">
@@ -75,7 +75,7 @@ const AboutUs = () => {
                             <h3 className="text-black text-xl tracking-[.20em] mb-4">KABA</h3>
                             <p className="text-black mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>                        
-                        <a href="https://www.instagram.com/kabaatuci/" className="bg-yellow-500 text-black py-2 px-4 border-2 border-black tracking-[.20em]">BUTTON</a>
+                        <a href="https://www.instagram.com/kabaatuci/" className="bg-yellow-500 text-black py-2 px-4 border-2 border-black tracking-[.20em] inline-block hover:scale-105 transition-transform duration-200">BUTTON</a>
                     </div>
 
                     <div className="flex flex-col items-center text-center">
@@ -84,7 +84,7 @@ const AboutUs = () => {
                             <h3 className="text-black text-xl tracking-[.20em] mb-4">PUSO</h3>
                             <p className="text-black mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>                        
-                        <a href="https://www.instagram.com/pusoatuci/" className="bg-yellow-500 text-black py-2 px-4 border-2 border-black tracking-[.20em]">BUTTON</a>
+                        <a href="https://www.instagram.com/pusoatuci/" className="bg-yellow-500 text-black py-2 px-4 border-2 border-black tracking-[.20em] inline-block hover:scale-105 transition-transform duration-200">BUTTON</a>
                     </div>
                 </div>
             </section>
