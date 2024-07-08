@@ -38,12 +38,12 @@ const Home = () => {
             </div>
             {/*What does Fusion bring?*/}
             <div className="fusion-container py-10">
-                <h2 className="text-4xl font-semibold text-center mb-10">WHAT DOES FUSION BRING?</h2>
+                <h2 className="text-4xl font-semibold text-center mb-10 text-black">WHAT DOES FUSION BRING?</h2>
                 <div className="fusion-row">
                     <div className="fusion-text-box">
-                        <h3 className="text-xl font-semibold mb-2">Insert Title Here</h3>
-                        <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <button className="fusion-button">BUTTON</button>
+                        <h3 className="text-xl font-semibold mb-2 text-black">Insert Title Here</h3>
+                        <p className="mb-4 text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <button className="fusion-button text-black">BUTTON</button>
                     </div>
                     <div className="fusion-image-box">
                         <img src={placeholderDarkImage} alt="Placeholder" className="fusion-image" />
@@ -54,16 +54,16 @@ const Home = () => {
                         <img src={placeholderDarkImage} alt="Placeholder" className="fusion-image" />
                     </div>
                     <div className="fusion-text-box">
-                        <h3 className="text-xl font-semibold mb-2">Insert Title Here</h3>
-                        <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <button className="fusion-button">BUTTON</button>
+                        <h3 className="text-xl font-semibold mb-2 text-black">Insert Title Here</h3>
+                        <p className="mb-4 text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <button className="fusion-button text-black">BUTTON</button>
                     </div>
                 </div>
                 <div className="fusion-row">
                     <div className="fusion-text-box">
-                        <h3 className="text-xl font-semibold mb-2">Insert Title Here</h3>
-                        <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <button className="fusion-button">BUTTON</button>
+                        <h3 className="text-xl font-semibold mb-2 text-black">Insert Title Here</h3>
+                        <p className="mb-4 text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <button className="fusion-button text-black">BUTTON</button>
                     </div>
                     <div className="fusion-image-box">
                         <img src={placeholderDarkImage} alt="Placeholder" className="fusion-image" />
