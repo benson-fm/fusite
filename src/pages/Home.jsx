@@ -36,9 +36,9 @@ const Home = () => {
                     <img src={placeholderDarkImage} className="w-full h-64 object-cover" alt="Slide 4" />
                 </div>
             </div>
-            {/*What does Fusion do?*/}
-            <div className="fusion-container py-20">
-                <h2 className="text-4xl font-semibold text-center mb-10">WHAT DOES FUSION DO?</h2>
+            {/*What does Fusion bring?*/}
+            <div className="fusion-container py-10">
+                <h2 className="text-4xl font-semibold text-center mb-10">WHAT DOES FUSION BRING?</h2>
                 <div className="fusion-row">
                     <div className="fusion-text-box">
                         <h3 className="text-xl font-semibold mb-2">Insert Title Here</h3>
