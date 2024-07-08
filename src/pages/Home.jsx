@@ -10,22 +10,6 @@ import LinkedInLogo from '/src/assets/LinkedIn.png';
 const Home = () => {
     return (
         <div className="home">
-            {/*Overview*/}
-            <div className="relative w-full h-screen flex flex-col justify-center items-center text-center bg-cover bg-center" style={{ backgroundImage: `url(${placeholderImage})` }}>
-                <div className="relative z-10 flex flex-col items-center justify-center h-full text-black">
-                    <nav className="absolute top-0 left-0 w-full flex justify-around items-center py-4">
-                        <a href="#home" className="text-black">HOME</a>
-                        <a href="#about" className="text-black">ABOUT</a>
-                        <a href="#projects" className="text-black">PROJECTS</a>
-                        <img src={FusionLogo} alt="Logo" className="h-8" />
-                        <a href="#board" className="text-black">BOARD</a>
-                        <a href="#programs" className="text-black">PROGRAMS</a>
-                        <a href="#meetings" className="text-black">MEETINGS</a>
-                    </nav>
-                    <h1 className="text-6xl font-bold">FUSION</h1>
-                    <h2 className="text-2xl mt-4">FILIPINX UNDERGRADUATE SCIENTISTS-ENGINEERS IN AN ORGANIZED NETWORK</h2>
-                </div>
-            </div>
             {/*What is Fusion*/}
             <div className="bg-white py-20">
                 <h2 className="text-4xl font-semibold text-center text-black">WHAT IS FUSION?</h2>
