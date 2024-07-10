@@ -1,6 +1,6 @@
-import FUSION from '../assets/FUSION.png'
+import FUSION from '../assets/download.png'
 import { useNavigate } from 'react-router-dom';
-
+import PropTypes from 'prop-types'
 
 function renderTitle(title,subtitle,homeNav){
     if(homeNav){
@@ -35,7 +35,7 @@ function renderTitle(title,subtitle,homeNav){
     }
 }
 
-export function Navbar({bg, title, subtitle, homeNav = false}){
+function Navbar({bg, title, subtitle, homeNav = false}){
     const navigate = useNavigate();
     const handleHome = () => {
         navigate("/");
@@ -86,3 +86,12 @@ export function Navbar({bg, title, subtitle, homeNav = false}){
         </>
     );
 }
+
+Navbar.propTypes = {
+    bg: PropTypes.node,
+    title: PropTypes.string,
+    subtitle: PropTypes.string,
+    homeNav: PropTypes.bool
+}
+
+export default Navbar
