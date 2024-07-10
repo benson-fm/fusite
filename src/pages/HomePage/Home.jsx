@@ -1,4 +1,4 @@
-import './FusionInfo.css'; // Import the CSS file for styling
+import OrangeWhiteBlock from './OrangeWhiteBlock';
 import OurStorySection from './OurStorySection';
 
 const Home = () => {
@@ -6,6 +6,8 @@ const Home = () => {
         <div className="home w-full mx-auto text-center">
             {/*Our Story*/}
             <OurStorySection></OurStorySection>
+            {/*Orange and White Info Block*/}
+            <OrangeWhiteBlock></OrangeWhiteBlock>
         </div>
     );
 }

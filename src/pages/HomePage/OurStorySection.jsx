@@ -26,7 +26,9 @@ const OurStorySection = () => {
         </p>
         <div className="mt-8 flex flex-col items-center">
           <p className="text-lg font-bold text-black karla-font">WHY JOIN?</p>
-          <img src={yellowDownArrow} alt="Yellow Down Arrow" className="mt-2" /> {/* Image of the down arrow */}
+          <button>
+          <img src={yellowDownArrow} alt="Yellow Down Arrow" className="mt-2" /> 
+          </button>
         </div>
       </div>
     </div>

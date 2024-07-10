@@ -1,0 +1,83 @@
+/* OrangeWhiteBlock.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Karla:wght@400;700&display=swap');
+
+.inter-font {
+  font-family: 'Inter', sans-serif;
+}
+
+.karla-font {
+  font-family: 'Karla', sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 65% 35%; /* Adjusted to give more space to the white section */
+  height: 100%;
+  position: relative; /* Ensure the container can handle positioned elements */
+}
+
+.white-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 2rem;
+  z-index: 1; /* Ensure it is below the image */
+}
+
+@media (min-width: 768px) {
+  .white-container {
+    padding: 4rem;
+  }
+}
+
+.content-container {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .content-container {
+    text-align: left;
+  }
+}
+
+.learn-more-button {
+  background-color: #FFA523;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.16em;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.learn-more-button:hover {
+  background-color: #ffcc00; /* Darker yellow on hover */
+}
+
+.hub-image {
+  width: 30%; /* Adjust as needed to control the image size */
+  height: auto; /* Maintain the aspect ratio */
+  border-top-right-radius: 5rem; /* Rounded top right corner */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow */
+  position: absolute; /* Ensure the image can overlap sections */
+  top: 20%;
+  right: 200px; /* Adjust to overlap the white and orange sections */
+  z-index: 2; /* Ensure it is above both sections */
+}
+
+.orange-container {
+  background-color: #FFA523;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  overflow: hidden; /* Ensure the overflow is hidden */
+  position: relative; /* Ensure the container can handle positioned elements */
+}
