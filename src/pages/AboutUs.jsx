@@ -32,6 +32,9 @@ const AboutUs = () => {
 
             <section className="bg-[#fee270] w-full h-[928px] flex items-center justify-center">
                 <div className="flex flex-wrap items-center justify-center gap-6">
+                
+                <section className="bg-[#fee270] w-full h-[928px] flex items-center justify-center">
+                <div className="flex flex-wrap items-center justify-center gap-6">
                     {/* Use the PillarBox component for each pillar */}
                     <PillarBox
                         title="SUPPORT"
@@ -41,10 +44,16 @@ const AboutUs = () => {
                         title="CULTURE"
                         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
                     />
-                    <PillarBox
-                        title="PROFESSIONALISM"
-                        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
-                    />
+                    <div className="flex items-center justify-center text-black border border-black w-[225px] h-[453px] relative bg-[#cbc7b7]">
+                        <div className="text-center transform -translate-y-[15%]">
+                            <div className="mb-5 pb-2">
+                                <h3 className="text-xl tracking-[.05em]">PROFESSIONALISM</h3>
+                            </div>
+                            <div>
+                                <p className="text-center pl-4 pr-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                            </div>
+                        </div>
+                    </div>
                     <PillarBox
                         title="SCIENCE & ENGINEERING"
                         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
@@ -56,6 +65,11 @@ const AboutUs = () => {
                 </div>
             </section>
 
+                </div>
+            </section>
+
+            
+                    
             <section className="bg-white w-full h-[1200px] flex flex-col items-center">
                 <h2 className="text-black text-4xl tracking-[.25em] mb-24 mt-52">ALYANSA</h2>
                 <div className="flex justify-center gap-16">
