@@ -1,3 +1,4 @@
+import GrayBlock from './GrayBlock';
 import OrangeWhiteBlock from './OrangeWhiteBlock';
 import OurStorySection from './OurStorySection';
 
@@ -8,6 +9,8 @@ const Home = () => {
             <OurStorySection></OurStorySection>
             {/*Orange and White Info Block*/}
             <OrangeWhiteBlock></OrangeWhiteBlock>
+            {/*Gray Info Block*/}
+            <GrayBlock></GrayBlock>
         </div>
     );
 }

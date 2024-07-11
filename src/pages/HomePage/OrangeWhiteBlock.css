@@ -1,74 +1,74 @@
-/* OrangeWhiteBlock.css */
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Karla:wght@400;700&display=swap');
 
 .inter-font {
-  font-family: 'Inter', sans-serif;
-}
-
+    font-family: 'Inter', sans-serif;
+  }
+  
 .karla-font {
-  font-family: 'Karla', sans-serif;
+    font-family: 'Karla', sans-serif;
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: 65% 35%; /* Adjusted to give more space to the white section */
-  height: 100%;
-  position: relative; /* Ensure the container can handle positioned elements */
+    display: grid;
+    grid-template-columns: 60% 40%; /* Adjusted to give more space to the white section */
+    height: 100%;
+    position: relative;
+    background-color: #ffffff; /* Set white background for the entire grid container */
 }
 
 .white-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-  padding: 2rem;
-  z-index: 1; /* Ensure it is below the image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    z-index: 1; /* Ensure it is below the image */
 }
 
 @media (min-width: 768px) {
-  .white-container {
-    padding: 4rem;
-  }
+    .white-container {
+        padding: 4rem;
+    }
 }
 
 .content-container {
-  text-align: center;
+    max-width: 600px;
+    text-align: center;
 }
 
 @media (min-width: 768px) {
-  .content-container {
-    text-align: left;
-  }
+    .content-container {
+        text-align: center; /* Center text on larger screens as well */
+    }
 }
 
 .learn-more-button {
-  background-color: #FFA523;
-  color: white;
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.16em;
-  padding: 0.5rem 1rem;
-  transition: background-color 0.3s ease;
-  border: none;
-  cursor: pointer;
+    background-color: #FFA523;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.16em;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.25rem;
 }
 
 .learn-more-button:hover {
-  background-color: #ffcc00; /* Darker yellow on hover */
+    background-color: #ffcc00;
 }
 
 .hub-image {
   width: 30%; /* Adjust as needed to control the image size */
   height: auto; /* Maintain the aspect ratio */
-  border-top-right-radius: 5rem; /* Rounded top right corner */
+  border-top-right-radius: 100px; /* Rounded corners */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow */
   position: absolute; /* Ensure the image can overlap sections */
-  top: 20%;
-  right: 200px; /* Adjust to overlap the white and orange sections */
+  top: 50%; /* Center the image vertically */
+  right: 30%; /* Adjust to overlap the white and gray sections */
+  transform: translate(50%, -50%); /* Center the image horizontally and vertically */
   z-index: 2; /* Ensure it is above both sections */
 }
 
@@ -77,7 +77,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0;
   overflow: hidden; /* Ensure the overflow is hidden */
   position: relative; /* Ensure the container can handle positioned elements */
 }
