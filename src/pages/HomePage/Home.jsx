@@ -1,6 +1,7 @@
 import GrayBlock from './GrayBlock';
 import OrangeWhiteBlock from './OrangeWhiteBlock';
 import OurStorySection from './OurStorySection';
+import JoinFusionBlock from './JoinFusionBlock';
 
 const Home = () => {
     return (
@@ -13,6 +14,8 @@ const Home = () => {
             <GrayBlock></GrayBlock>
             {/*Orange and White Info Block*/}
             <OrangeWhiteBlock></OrangeWhiteBlock>
+            {/*Join Fusion Block*/}
+            <JoinFusionBlock></JoinFusionBlock>
         </div>
     );
 }

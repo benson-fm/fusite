@@ -53,7 +53,6 @@
     transition: background-color 0.3s ease;
     border: none;
     cursor: pointer;
-    border-radius: 0.25rem;
 }
 
 .learn-more-button:hover {
