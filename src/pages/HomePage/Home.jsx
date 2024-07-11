@@ -11,6 +11,8 @@ const Home = () => {
             <OrangeWhiteBlock></OrangeWhiteBlock>
             {/*Gray Info Block*/}
             <GrayBlock></GrayBlock>
+            {/*Orange and White Info Block*/}
+            <OrangeWhiteBlock></OrangeWhiteBlock>
         </div>
     );
 }
