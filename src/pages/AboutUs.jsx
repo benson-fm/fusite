@@ -1,3 +1,16 @@
+const PillarBox = ({ title, content }) => (
+    <div className="flex items-center justify-center text-black border border-black w-[225px] h-[453px] relative bg-[#cbc7b7]">
+        <div className="text-center transform -translate-y-[15%]">
+            <div className="mb-5 pb-2">
+                <h3 className="text-2xl tracking-[.1em]">{title}</h3>
+            </div>
+            <div>
+                <p className="text-center pl-4 pr-4">{content}</p>
+            </div>
+        </div>
+    </div>
+);
+
 const AboutUs = () => {
     return (
         <div className="flex flex-col about-us-container">
@@ -19,41 +32,27 @@ const AboutUs = () => {
 
             <section className="bg-[#fee270] w-full h-[928px] flex items-center justify-center">
                 <div className="flex flex-wrap items-center justify-center gap-6">
-                
-                    <div className="flex items-center justify-center text-black border border-black w-[200px] h-[453px] relative bg-[#cbc7b7]">
-                        <div className="text-center transform -translate-y-[15%]">
-                            <h3 className="mb-5 text-2xl tracking-[.1em]">SUPPORT</h3>
-                            <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                        </div>
-                    </div>
-
-                    <div className="flex items-center justify-center text-black border border-black w-[200px] h-[453px] relative bg-[#cbc7b7]">
-                        <div className="text-center transform -translate-y-[15%]"> 
-                            <h3 className="mb-5 text-2xl tracking-[.1em]">CULTURE</h3>
-                            <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                        </div>
-                    </div>
-
-                    <div className="flex items-center justify-center text-black border border-black w-[200px] h-[453px] relative bg-[#cbc7b7]">
-                        <div className="text-center transform -translate-y-[15%]"> 
-                            <h3 className="mb-5 text-xl">PROFESSIONALISM</h3>
-                            <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                        </div>
-                    </div>
-
-                    <div className="flex items-center justify-center text-black border border-black w-[200px] h-[453px] relative bg-[#cbc7b7]">
-                        <div className="text-center transform -translate-y-[15%]">
-                            <h3 className="mb-5 text-2xl">SCIENCE & ENGINEERING</h3>
-                            <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                        </div>
-                    </div>
-
-                    <div className="flex items-center justify-center text-black border border-black w-[200px] h-[453px] relative bg-[#cbc7b7]">
-                        <div className="text-center transform -translate-y-[15%]">
-                            <h3 className="mb-5 text-2xl">ACADEMICS</h3>
-                            <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                        </div>
-                    </div>
+                    {/* Use the PillarBox component for each pillar */}
+                    <PillarBox
+                        title="SUPPORT"
+                        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+                    />
+                    <PillarBox
+                        title="CULTURE"
+                        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+                    />
+                    <PillarBox
+                        title="PROFESSIONALISM"
+                        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+                    />
+                    <PillarBox
+                        title="SCIENCE & ENGINEERING"
+                        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+                    />
+                    <PillarBox
+                        title="ACADEMICS"
+                        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+                    />
                 </div>
             </section>
 
@@ -64,7 +63,7 @@ const AboutUs = () => {
                     <div className="flex flex-col items-center text-center">
                         <div className="bg-gray-300 w-64 h-64 mb-12"></div>
                         <div className="w-64 h-64">
-                            <h3 className="text-black text-xl tracking-[.20em] mb-4">PASS</h3>
+                            <h3 className="text-black text-2xl tracking-[.20em] mb-4">PASS</h3>
                             <p className="text-black mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                         <a href="https://www.instagram.com/passatuci/" className="bg-yellow-500 text-black py-2 px-4 border-2 border-black tracking-[.20em] inline-block hover:scale-105 transition-transform duration-200">BUTTON</a>
@@ -73,7 +72,7 @@ const AboutUs = () => {
                     <div className="flex flex-col items-center text-center">
                         <div className="bg-gray-300 w-64 h-64 mb-12"></div>
                         <div className="w-64 h-64">
-                            <h3 className="text-black text-xl tracking-[.20em] mb-4">KABA</h3>
+                            <h3 className="text-black text-2xl tracking-[.20em] mb-4">KABA</h3>
                             <p className="text-black mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>                        
                         <a href="https://www.instagram.com/kabaatuci/" className="bg-yellow-500 text-black py-2 px-4 border-2 border-black tracking-[.20em] inline-block hover:scale-105 transition-transform duration-200">BUTTON</a>
@@ -82,7 +81,7 @@ const AboutUs = () => {
                     <div className="flex flex-col items-center text-center">
                         <div className="bg-gray-300 w-64 h-64 mb-12"></div>
                         <div className="w-64 h-64">
-                            <h3 className="text-black text-xl tracking-[.20em] mb-4">PUSO</h3>
+                            <h3 className="text-black text-2xl tracking-[.20em] mb-4">PUSO</h3>
                             <p className="text-black mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>                        
                         <a href="https://www.instagram.com/pusoatuci/" className="bg-yellow-500 text-black py-2 px-4 border-2 border-black tracking-[.20em] inline-block hover:scale-105 transition-transform duration-200">BUTTON</a>
