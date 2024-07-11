@@ -16,6 +16,7 @@
   height: 100vh;
   background: url('../../assets/joinbackground.png') no-repeat center center;
   background-size: cover;
+  background-color: #F0F0F0;
   position: relative;
   text-align: center;
   color: white;
@@ -28,7 +29,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(255, 165, 35, 0.8));
+  background: linear-gradient(to bottom, rgba(229, 229, 229, 0.4) 70%, rgba(255, 165, 35, 0.8) 90%);
   z-index: 1;
 }
 
@@ -41,15 +42,20 @@
   align-items: center;
 }
 
-.title {
-  font-size: 4rem;
+.subtitle {
+  font-size: 24px; /* Adjusted font size */
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.12em;
+  white-space: nowrap;
 }
 
-.subtitle {
-  font-size: 1.25rem;
-  margin-bottom: 2rem;
+.title {
+  font-size: 128px; /* Adjusted font size to fit in one line */
+  font-weight: 800;
+  margin-bottom: 1rem;
+  letter-spacing: 0.10em;
+  white-space: nowrap; /* Prevent text from wrapping */
 }
 
 .apply-button {
@@ -57,13 +63,14 @@
   color: white;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 1rem; /* Adjusted font size */
+  line-height: 2rem; /* Adjusted line height */
   letter-spacing: 0.16em;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 2rem;
   border: none;
   cursor: pointer;
-  border-radius: 0.25rem;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
   transition: background-color 0.3s ease;
 }
 
