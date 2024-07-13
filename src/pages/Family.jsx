@@ -1,3 +1,4 @@
+{/* w-1440 3/4 */}
 const Family = () => {
     return (
         <div className="flex flex-col"> {/* parent container */}
@@ -26,9 +27,17 @@ const Family = () => {
             <section className="bg-white w-full h-[1540px] flex items-center justify-center"> {/* individual fam section 1540 */}
             </section>
 
-            <section className="bg-white w-full h-[1218px] flex items-center justify-center"> {/* fam gallery section 1218 */}
+            <section className="bg-white w-full h-[1218px] flex flex-col items-center justify-start"> {/* fam gallery section 1218 */}
+                <div className="flex flex-col items-center justify-start w-[1274px] h-[836px] mt-[67px]">
+                    <div>
+                        <h1 className="text-2xl text-black tracking-[.1em]">FAM GALLERY</h1>
+                    </div>
+                    <div className="mt-[63px]">
+                    <div className="bg-[#cbc7b7] w-[955.5px] h-[738px]"></div>
+                    </div>
+                </div>
             </section>
-            
+
             <footer className="bg-[#fee270] w-full h-[355px]">
                 <p className="text-black text-2xl text-center">Footer</p>
             </footer>
