@@ -1,4 +1,3 @@
-import React from 'react'
 import LinkedIn from "../images/LinkedIn.png"
 import Instagram from "../images/Instagram.png"
 import Facebook from "../images/Facebook.png"
