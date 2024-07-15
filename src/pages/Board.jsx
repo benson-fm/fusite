@@ -8,7 +8,7 @@ const Board = () => {
             <div>
                 <MeetTheTeam />
                 <Executive />
-                <Appointed />
+                <Appointed className='pt-[20px]'/>
             </div>
             <Footer />
         </>

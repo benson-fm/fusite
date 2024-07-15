@@ -74,17 +74,6 @@ const Executive = () => {
 
     return (
         <div className="bg-white text-black py-16">
-            <div className="text-center mb-8">
-                <div className='flex items-center justify-center mb-2'>
-                    <img src={HalfSun} alt="Half Sun" className="h-16 justify-center" />
-                </div>
-                <div className="flex items-center justify-center mb-2">
-                    <div className="border-t border-[#FAC80A] w-[115px] border-[2px] mr-2"></div>
-                    <h2 className="text-black text-[32px] font-karla font-bold uppercase leading-[37.41px] tracking-[0.12em]">Executive</h2>
-                    <div className="border-t border-[#FAC80A] w-[115px] border-[2px] ml-2"></div>
-                </div>
-                
-            </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[1px] justify-items-center pb-[20px]">
                 {teamMembers.map((member, index) => (
                     <ProfileCard
