@@ -1,31 +1,11 @@
 {/* w-1440 3/4 */}
 {/*  */}
-{/* 
 
-const PillarBox = ({ title, content }) => (
-    <div className="flex items-center justify-center text-black border border-black w-[225px] h-[453px] relative bg-[#cbc7b7]">
-        <div className="text-center transform -translate-y-[15%]">
-            <div className="mb-5 pb-2">
-                <h3 className="text-2xl tracking-[.1em]">{title}</h3>
-            </div>
-            <div>
-                <p className="text-center pl-4 pr-4">{content}</p>
-            </div>
-        </div>
-    </div>
-);
-
-<section className="bg-[#fee270] w-full h-[928px] flex items-center justify-center">
-                <div className="flex flex-wrap items-center justify-center gap-6">
-                    ---- Use the PillarBox component for each pillar
-                    <PillarBox
-                        title="SUPPORT"
-                        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
-                    />
-*/}
 import React from "react";
 import Footer from "../components/Footer";
-import Instagram from '../images/Instagram.png'; // Import your icon image
+import Instagram from '../images/Instagram.png'; 
+import fam_placeholder from '../images/fam_placeholder.png'
+import TotoPic from '../images/TotoPic.png'
 
 
 const Internship = () => {
@@ -104,6 +84,67 @@ const Internship = () => {
                     <div className="mt-[122px] flex items-start justify-center">
                         <h1 className="text-[40px] text-black tracking-[.1em]">BENEFITS OF INTERNING</h1>
                     </div>
+
+                    <div className="w-[955.5px] h-[308px] mt-[114px]"> {/* Intern Container */}
+
+                        <div className="flex items-start max-w-[1270px] w-full h-[413px] mt-4"> {/* Fu class intern */}
+                            <img src={TotoPic} className="w-[285.49px] h-[307.45px] opacity-1" />
+                            <div className="ml-8 flex flex-col justify-center">
+                                <p className="text-black font-inter text-2xl leading-7 pl-8 mt-4">
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                                quis nostrud exercitation ullamco laboris nisi."
+                                </p>
+                                <div className="flex flex-row mt-40">
+                                <p className="text-black font-inter text-2xl leading-7 pl-8">
+                                    - Lorem Ipsum
+                                </p>
+                                <p className="text-gray-700 font-inter italic text-2xl leading-7 pl-2">
+                                    Fu Class
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="flex items-start max-w-[1270px] w-full h-[413px] mt-4"> {/* Si class intern */}
+                            <div className="ml-8 flex flex-col justify-center">
+                                <p className="text-black font-inter text-2xl leading-7 pr-8 mt-4">
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                                quis nostrud exercitation ullamco laboris nisi."
+                                </p>
+                                <div className="flex flex-row mt-40 justify-end">
+                                <p className="text-black font-inter text-2xl leading-7 pr-2">
+                                    - Lorem Ipsum
+                                </p>
+                                <p className="text-gray-700 font-inter italic text-2xl leading-7 pr-10">
+                                    Internship Class
+                                </p>
+                                </div>
+                            </div>
+                            <img src={TotoPic} alt="Profile 1" className="w-[285.49px] h-[307.45px] opacity-1" />
+                        </div>
+
+                        <div className="flex items-start max-w-[1270px] w-full h-[413px] mt-4"> {/* On class intern */}
+                            <img src={TotoPic} className="w-[285.49px] h-[307.45px] opacity-1" />
+                            <div className="ml-8 flex flex-col justify-center">
+                                <p className="text-black font-inter text-2xl leading-7 pl-8 mt-4">
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                                quis nostrud exercitation ullamco laboris nisi."
+                                </p>
+                                <div className="flex flex-row mt-40">
+                                <p className="text-black font-inter text-2xl leading-7 pl-8">
+                                    - Lorem Ipsum
+                                </p>
+                                <p className="text-gray-700 font-inter italic text-2xl leading-7 pl-2">
+                                    Fu Class
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </section>
 
@@ -117,6 +158,13 @@ const Internship = () => {
             </section>
 
             <section className="bg-white w-[1440px] h-[761.5px] flex items-center justify-center"> {/* random pics?*/}
+                <div className="slider-cpntainer mt-[155px] gap-[64px]">
+                    <div className="slider flex">
+                        <div className="slide"><img className="w-[818px] h-[496px] object-cover" src={fam_placeholder}/></div>
+                        <div className="slide"><img className="w-[818px] h-[496px] object-cover" src={fam_placeholder}/></div>
+                        <div className="slide"><img className="w-[818px] h-[496px] object-cover" src={fam_placeholder}/></div>
+                    </div>
+                </div>
             </section>
 
             <footer className="bg-[#fee270] w-[1440px] h-[250px]">
