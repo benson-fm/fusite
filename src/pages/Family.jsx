@@ -45,8 +45,8 @@ const Family = () => {
         <div className="flex flex-col"> {/* parent container */}
             <header className="bg-[#cbc7b7] h-[840px] w-full flex flex-col items-center justify-center">  
                 <div className="text-center">
-                    <h1 className="text-black text-7xl font-bold tracking-[.25em]">PROGRAMS</h1>
-                    <h2 className="text-black text-4xl mt-[48px] tracking-[.25em]">FAMILY</h2>
+                    <h1 className="text-black text-[128px] font-bold tracking-[.25em]">PROGRAMS</h1>
+                    <h2 className="text-black text-[40px] mt-[48px] tracking-[.25em]">FAMILY</h2>
                 </div>
             </header>
 
@@ -54,10 +54,10 @@ const Family = () => {
             <section className="bg-white w-full h-[594px] flex items-center justify-center"> {/* What is Fam system section 594*/}
                 <div className="flex flex-col items-center justify-center  w-[816px] h-[258px]">
                     <div>
-                        <h1 className="text-2xl text-black tracking-[.1em]">WHAT IS OUR FAM SYSTEM</h1>
+                        <h1 className="text-[40px] text-black tracking-[.1em]">WHAT IS OUR FAM SYSTEM</h1>
                     </div>
                     <div className="mt-[55px]">
-                        <p className="text-black text-center">General members are assigned to a FUSION Family, referred to as “Fams,” 
+                        <p className="text-xl text-black text-center">General members are assigned to a FUSION Family, referred to as “Fams,” 
                         with each named according to the theme of the school year. This system promotes camaraderie, professional 
                         development, and cultural enrichment through social gatherings, challenges, and friendly competition. The 
                         FUSION Family system significantly contributes to creating a strong sense of community within the organization.</p>
@@ -67,25 +67,25 @@ const Family = () => {
 
             <section className="bg-white w-full h-[1540px]"> {/* individual fam section 1540 */}
                 <div className="flex items-start justify-center w-full mt-[105px]">   {/* header container */}
-                    <h1 className="text-2xl text-black tracking-[.1em]">2023-2024 FAMS</h1>
+                    <h1 className="text-[40px] text-black tracking-[.1em]">2023-2024 FAMS</h1>
                 </div>
                 <div className="flex items-start justify-center w-full mt-[115px]"> {/* body container */}
                     <div className="grid grid-cols-2 w-[978.75px] h-[1211px]">
                         <div className="mr-[30px]"> {/* Aang Fam */}
                             <img className="w-[622px] h-[405px] object-cover" src={fam_placeholder}></img>
-                            <div className="mt-[60px]  text-xl text-black text-center tracking-[.1em]">AANG FAM</div>
+                            <div className="mt-[40px]  text-[40px] text-black text-center tracking-[.1em]">AANG FAM</div>
                         </div>
                         <div className="ml-[30px]"> {/* Zuko Fam */}
                             <img className="w-[622px] h-[405px] object-cover" src={fam_placeholder}></img>
-                            <div className="mt-[60px]  text-xl text-black text-center tracking-[.1em]">ZUKO FAM</div>
+                            <div className="mt-[40px]  text-[40px] text-black text-center tracking-[.1em]">ZUKO FAM</div>
                         </div>
                         <div className="mr-[30px]"> {/* Suki Fam */}
                             <img className="w-[622px] h-[405px] object-cover" src={fam_placeholder}></img>
-                            <div className="mt-[60px]  text-xl text-black text-center tracking-[.1em]">SUKI FAM</div>
+                            <div className="mt-[40px]  text-[40px] text-black text-center tracking-[.1em]">SUKI FAM</div>
                         </div>
                         <div className="ml-[30px]"> {/* Yue Fam */}
                             <img className="w-[622px] h-[405px] object-cover" src={fam_placeholder}></img>
-                            <div className="mt-[60px]  text-xl text-black text-center tracking-[.1em]">YUE FAM</div>
+                            <div className="mt-[40px]  text-[40px] text-black text-center tracking-[.1em]">YUE FAM</div>
                         </div>
                     </div>
                 </div>
@@ -94,7 +94,7 @@ const Family = () => {
             <section className="bg-white w-full h-[1218px] flex flex-col items-center justify-start"> {/* fam gallery section 1218 */}
                 <div className="flex flex-col items-center justify-start w-[1274px] h-[836px] mt-[67px]">
                     <div>
-                        <h1 className="text-2xl text-black tracking-[.1em]">FAM GALLERY</h1>
+                        <h1 className="text-[40px] text-black tracking-[.1em]">FAM GALLERY</h1>
                     </div>
                     <div className="mt-[63px]">
                         <img className="w-[955.5px] h-[738px] object-cover" src={fam_placeholder}/>                  
