@@ -100,7 +100,7 @@ const Internship = () => {
                                     - Lorem Ipsum
                                 </p>
                                 <p className="text-gray-700 font-inter italic text-2xl leading-7 pl-2">
-                                    Fu Class
+                                    FU Class
                                 </p>
                                 </div>
                             </div>
@@ -118,7 +118,7 @@ const Internship = () => {
                                     - Lorem Ipsum
                                 </p>
                                 <p className="text-gray-700 font-inter italic text-2xl leading-7 pr-10">
-                                    Internship Class
+                                    SI Class
                                 </p>
                                 </div>
                             </div>
@@ -138,7 +138,7 @@ const Internship = () => {
                                     - Lorem Ipsum
                                 </p>
                                 <p className="text-gray-700 font-inter italic text-2xl leading-7 pl-2">
-                                    Fu Class
+                                    ON Class
                                 </p>
                                 </div>
                             </div>
@@ -158,11 +158,15 @@ const Internship = () => {
             </section>
 
             <section className="bg-white w-[1440px] h-[761.5px] flex items-center justify-center"> {/* random pics?*/}
-                <div className="slider-cpntainer mt-[155px] gap-[64px]">
-                    <div className="slider flex">
-                        <div className="slide"><img className="w-[818px] h-[496px] object-cover" src={fam_placeholder}/></div>
-                        <div className="slide"><img className="w-[818px] h-[496px] object-cover" src={fam_placeholder}/></div>
-                        <div className="slide"><img className="w-[818px] h-[496px] object-cover" src={fam_placeholder}/></div>
+                <div className="carousel rounded-box mt-[155px] gap-[64px]">
+                    <div className="carousel-item">
+                        <img className="w-[613.5px] h-[372px] object-cover" src={fam_placeholder}/>
+                    </div>
+                    <div className="carousel-item">
+                        <img className="w-[613.5px] h-[372px] object-cover" src={fam_placeholder}/>
+                    </div>
+                    <div className="carousel-item">
+                        <img className="w-[613.5px] h-[372px] object-cover" src={fam_placeholder}/>
                     </div>
                 </div>
             </section>
