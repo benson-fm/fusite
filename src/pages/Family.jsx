@@ -1,4 +1,5 @@
 {/* w-1440 3/4 */}
+{/*  */}
 {/* 
 
 const PillarBox = ({ title, content }) => (
@@ -13,9 +14,30 @@ const PillarBox = ({ title, content }) => (
         </div>
     </div>
 );
+
+<section className="bg-[#fee270] w-full h-[928px] flex items-center justify-center">
+                <div className="flex flex-wrap items-center justify-center gap-6">
+                    ---- Use the PillarBox component for each pillar
+                    <PillarBox
+                        title="SUPPORT"
+                        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+                    />
 */}
+import React from "react";
+import Footer from "../components/Footer";
+import fam_placeholder from '../images/fam_placeholder.png';
+
+
 const FamPic = ({ title, image }) => (
-    <div>
+    <div className="flex items-center justify-center w-[225px] h-[453px]">
+        <div className="flex flex-col items-center">
+            <div className="w-[622px] h-[469px">
+                <img className="w-full h-full" src={image}/>
+            </div>
+            <div className="mt-[60px]">
+                <p className="text-center text-black tracking-[.1em]">{title}</p>
+            </div>
+        </div>
     </div>
 );
 const Family = () => {
@@ -30,7 +52,7 @@ const Family = () => {
 
              {/* Entire white section 3352*/}
             <section className="bg-white w-full h-[594px] flex items-center justify-center"> {/* What is Fam system section 594*/}
-                <div className="flex flex-col items-center justify-center  w-[1088px] h-[258px]">
+                <div className="flex flex-col items-center justify-center  w-[816px] h-[258px]">
                     <div>
                         <h1 className="text-2xl text-black tracking-[.1em]">WHAT IS OUR FAM SYSTEM</h1>
                     </div>
@@ -44,8 +66,28 @@ const Family = () => {
             </section>
 
             <section className="bg-white w-full h-[1540px]"> {/* individual fam section 1540 */}
-                <div className="flex items-start justify-center w-full mt-[112px]">
+                <div className="flex items-start justify-center w-full mt-[105px]">   {/* header container */}
                     <h1 className="text-2xl text-black tracking-[.1em]">2023-2024 FAMS</h1>
+                </div>
+                <div className="flex items-start justify-center w-full mt-[115px]"> {/* body container */}
+                    <div className="grid grid-cols-2 w-[978.75px] h-[1211px]">
+                        <div className="mr-[30px]"> {/* Aang Fam */}
+                            <img className="w-[622px] h-[405px] object-cover" src={fam_placeholder}></img>
+                            <div className="mt-[60px]  text-xl text-black text-center tracking-[.1em]">AANG FAM</div>
+                        </div>
+                        <div className="ml-[30px]"> {/* Zuko Fam */}
+                            <img className="w-[622px] h-[405px] object-cover" src={fam_placeholder}></img>
+                            <div className="mt-[60px]  text-xl text-black text-center tracking-[.1em]">ZUKO FAM</div>
+                        </div>
+                        <div className="mr-[30px]"> {/* Suki Fam */}
+                            <img className="w-[622px] h-[405px] object-cover" src={fam_placeholder}></img>
+                            <div className="mt-[60px]  text-xl text-black text-center tracking-[.1em]">SUKI FAM</div>
+                        </div>
+                        <div className="ml-[30px]"> {/* Yue Fam */}
+                            <img className="w-[622px] h-[405px] object-cover" src={fam_placeholder}></img>
+                            <div className="mt-[60px]  text-xl text-black text-center tracking-[.1em]">YUE FAM</div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -55,13 +97,13 @@ const Family = () => {
                         <h1 className="text-2xl text-black tracking-[.1em]">FAM GALLERY</h1>
                     </div>
                     <div className="mt-[63px]">
-                    <div className="bg-[#cbc7b7] w-[955.5px] h-[738px]"></div>
+                        <img className="w-[955.5px] h-[738px] object-cover" src={fam_placeholder}/>                  
                     </div>
                 </div>
             </section>
 
-            <footer className="bg-[#fee270] w-full h-[355px]">
-                <p className="text-black text-2xl text-center">Footer</p>
+            <footer className="bg-[#fee270] w-full h-[250px]">
+                <Footer />
             </footer>
         </div>
     );
