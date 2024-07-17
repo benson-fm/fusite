@@ -5,14 +5,18 @@ import HalfGear from '../images/HalfGear.png';
 
 import CoICS1 from '../images/CoICS1.png';
 import CoEngineering1 from '../images/CoEngineering1.png';
+import CoEngineering2 from '../images/CoEngineering2.png';
 
 import CoAthletics1 from '../images/CoAthletics1.png';
-
+import CoAthletics2 from '../images/CoAthletics2.png';
 import CoAcademics2 from '../images/CoAcademics2.png';
 import CoPublicity1 from '../images/CoPublicity1.png';
+import CoPublicity2 from '../images/CoPublicity2.png';
 
 import CoNetworking1 from '../images/CoNetworking1.png';
 import CoNetworking2 from '../images/CoNetworking2.png';
+
+import CoSocial1 from '../images/CoSocial1.png';
 
 import CulturalDirector from '../images/CulturalDirector.png';
 import GrayPlaceholder from '../images/GrayPlaceholder.png';
@@ -54,12 +58,12 @@ const teamMembers = [
     {
         name: 'Dommenick Lacuata',
         position: 'Co-Engineering Project Director',
-        photoUrl: GrayPlaceholder,
+        photoUrl: CoEngineering2,
         pronouns: 'HE/HIM',
         year: '2ND YEAR',
         major: 'CIVIL ENGINEERING',
-        about: '...',
-        contact: '...',
+        about: 'Hi, I\'m Dommenick Lacuata, and I am serving as one of your Engineering Project Directors this year. Along with my co, I run the yearly FUSION Engineering Project (FEP), where members are split into teams to compete over who can make the best robot. I run workshops, organize build meetings, and plan annual projects. I aim to create a challenging program for all majors to strengthen their engineering skills.',
+        contact: 'DLACUATA@UCI.EDU',
         linkedin: '...'
     },
     {
@@ -76,7 +80,7 @@ const teamMembers = [
     {
         name: 'Arlaghn Cayanan',
         position: 'Co-Athletics Director',
-        photoUrl: GrayPlaceholder,
+        photoUrl: CoAthletics2,
         pronouns: 'HE/HIM',
         year: '2ND YEAR',
         major: 'COMPUTER SCIENCE',
@@ -120,12 +124,12 @@ const teamMembers = [
     {
         name: 'Audrey Estrella',
         position: 'Co-Publicity Director',
-        photoUrl: GrayPlaceholder,
+        photoUrl: CoPublicity2,
         pronouns: 'SHE/HER',
         year: '2ND YEAR',
-        major: '...',
-        about: '...',
-        contact: '...',
+        major: 'CHEMICAL ENGINEERING',
+        about: 'Hello! My name is Audrey Estrella Martin and as one of your Publicity Directors, I oversee the public relations side of FUSION! Alongside my co-director, I help create  banners and flyers to promote our club! My aim is to target different audiences to feel safe coming into our FUSION space through the images they see on campus. Outside my role, I enjoy watching shows and going on hikes!',
+        contact: 'AUDREEM1@UCI.EDU',
         linkedin: '...'
     },
     {
@@ -151,9 +155,9 @@ const teamMembers = [
         linkedin: '...'
     },
     {
-        name: 'FirstName LastName',
-        position: 'Position',
-        photoUrl: GrayPlaceholder,
+        name: 'Matthew Simbillo',
+        position: 'Co-Social Director',
+        photoUrl: CoSocial1,
         pronouns: 'THEY/THEM',
         year: '? YEAR',
         major: '???',
