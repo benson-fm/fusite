@@ -80,7 +80,7 @@ const Executive = () => {
                 </div>
                 <div className="flex items-center justify-center mb-2">
                     <div className="border-t border-[#FAC80A] w-[115px] border-[2px] mr-2"></div>
-                    <h2 className="text-black text-[32px] font-karla font-bold uppercase leading-[37.41px] tracking-[0.12em]">Appointed</h2>
+                    <h2 className="text-black text-[32px] font-karla font-bold uppercase leading-[37.41px] tracking-[0.12em]">Executive </h2>
                     <div className="border-t border-[#FAC80A] w-[115px] border-[2px] ml-2"></div>
                 </div>
             </div>
