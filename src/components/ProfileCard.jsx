@@ -1,4 +1,3 @@
-// eslint-disable-next-line react/prop-types
 const ProfileCard = ({ name, position, photoUrl, onClick }) => {
     return (
         <div className="flex flex-col items-center pb-[20px] relative transform transition-transform duration-300 hover:scale-95 cursor-pointer" onClick={onClick}>
