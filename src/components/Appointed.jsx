@@ -222,7 +222,7 @@ const Appointed = () => {
                     <div className="border-t border-[#FAC80A] w-[115px] border-[2px] ml-2"></div>
                 </div>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[20px] justify-items-center pb-[20px]">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[72px] justify-items-center pb-[20px]">
                 {teamMembers.map((member, index) => (
                     <ProfileCard className="h-[416px] w-[288px]"
                         key={index}
