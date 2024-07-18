@@ -6,9 +6,9 @@ import Footer from "../components/Footer";
 
 export function AlumniPage() {
     return (
-        <div className="flex flex-col items-center justify-center w-full min-h-screen bg-white p-8">
+        <div className="flex flex-col items-center justify-center w-full min-h-screen bg-white p-8 overflow-x-hidden">
             <div className="max-w-[1088px] w-full flex flex-col justify-center items-center gap-10">
-                <h1 className="text-black text-center font-inter text-4xl font-medium" style={{ letterSpacing: '8px' }}>
+                <h1 className="text-black text-center font-inter text-4xl font-medium mt-20" style={{ letterSpacing: '8px' }}>
                     ALUMNI NETWORK
                 </h1>
                 <p className="text-black text-center font-inter text-base leading-7 px-32">
@@ -17,9 +17,9 @@ export function AlumniPage() {
                 </p>
             </div>
 
-            <img src={PlaceholderPic} alt="Placeholder" className="w-full max-w-[1920px] h-auto mt-8"/>
+            <img src={PlaceholderPic} alt="Placeholder" className="w-full h-auto mt-20"/>
 
-            <div className="max-w-[1088px] w-full flex flex-col justify-center items-center gap-10 m-10">
+            <div className="max-w-[1088px] w-full flex flex-col justify-center items-center gap-10 m-20">
                 <h1 className="text-black text-center font-inter text-4xl font-medium" style={{ letterSpacing: '8px' }}>
                     HOW TO GET INVOLVED
                 </h1>
@@ -40,7 +40,7 @@ export function AlumniPage() {
                 </div>
             </div>
 
-            <div className="flex items-start max-w-[1270px] w-full h-[413px] mt-10">
+            <div className="flex items-start max-w-[1270px] w-full h-[413px] mt-20">
                 <div className="mr-8 flex flex-col justify-center">
                     <h2 className="text-black font-inter text-4xl font-medium" style={{ letterSpacing: '8px' }}>
                         PROFESSIONAL NETWORK
@@ -52,7 +52,7 @@ export function AlumniPage() {
                 <img src={PlaceholderPic} alt="Network Placeholder" className="w-[626px] h-[413px] opacity-1"/>
             </div>
 
-            <div className="flex items-start max-w-[1270px] w-full h-[413px] mt-10">
+            <div className="flex items-start max-w-[1270px] w-full h-[413px] mt-20">
                 <img src={PlaceholderPic} alt="Spotlight Placeholder" className="w-[626px] h-[413px] opacity-1"/>
                 <div className="ml-8 flex flex-col justify-center">
                     <h2 className="text-black font-inter text-4xl font-medium pr-40" style={{ letterSpacing: '8px' }}>
@@ -64,19 +64,25 @@ export function AlumniPage() {
                 </div>
             </div>
 
-            <div className="max-w-[1264px] w-full flex items-center justify-center h-[385px] mt-10 bg-gray-200 rounded-lg p-8">
+            <div className="max-w-[1264px] w-full flex items-center justify-center h-[385px] mt-20 bg-gray-200 rounded-lg p-8">
                 <div className="max-w-[1160px] w-full">
                     <h2 className="text-black font-inter text-center text-4xl font-medium tracking-wide">
                         CARE TO REACH OUT? CONNECT WITH US!
                     </h2>
                     <div className="flex items-center justify-center gap-10 mt-6">
-                        <img src={Gmail} alt="Gmail Icon" className="w-[127.76px] h-[97.26px] opacity-1"/>
-                        <img src={Facebook} alt="Facebook Icon" className="w-[108.8px] h-[108.8px] opacity-1"/>
-                        <img src={LinkedIn} alt="LinkedIn Icon" className="w-[108.15px] h-[108.8px] opacity-1"/>
+                        <a href="mailto:fusion.uci.networking@gmail.com" target="_blank" rel="noopener noreferrer">
+                            <img src={Gmail} alt="Gmail Icon" className="w-[127.76px] h-[97.26px] opacity-1"/>
+                        </a>
+                        <a href="https://www.facebook.com/fusionuci/" target="_blank" rel="noopener noreferrer">
+                            <img src={Facebook} alt="Facebook Icon" className="w-[108.8px] h-[108.8px] opacity-1"/>
+                        </a>
+                        <a href="https://www.linkedin.com/in/fusionatuci/" target="_blank" rel="noopener noreferrer">
+                            <img src={LinkedIn} alt="LinkedIn Icon" className="w-[108.15px] h-[108.8px] opacity-1"/>
+                        </a>
                     </div>
                 </div>
             </div>
-            <div className='mt-10'></div>
+            <div className='mt-20'></div>
             <Footer />
         </div>
         

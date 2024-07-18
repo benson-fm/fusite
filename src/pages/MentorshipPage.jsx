@@ -6,8 +6,8 @@ import Footer from "../components/Footer";
 
 export function MentorshipPage() {
     return (
-        <div className="flex flex-col items-center justify-center w-full min-h-screen bg-white p-8">
-            <div className="max-w-[1088px] w-full flex flex-col justify-center items-center gap-10">
+        <div className="flex flex-col items-center justify-center w-full min-h-screen bg-white p-8 overflow-x-hidden">
+            <div className="w-full flex flex-col justify-center items-center gap-10">
                 <h1 className="text-black text-center font-inter text-4xl font-medium mt-40" style={{ letterSpacing: '8px' }}>
                     WHAT IS OUR MENTORSHIP PROGRAM?
                 </h1>
