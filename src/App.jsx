@@ -4,7 +4,6 @@ import Home from './pages/Home'
 import Family from './pages/Family'
 import Internship from './pages/Internship'
 
-
 export default function App() {
   return (
     <Router>

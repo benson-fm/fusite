@@ -11,7 +11,7 @@ import TotoPic from '../images/TotoPic.png'
 const Internship = () => {
     return (
         <div className="flex flex-col"> {/* parent container */}
-            <header className="bg-[#cbc7b7] h-[840px] w-[1440px] flex flex-col items-center justify-center">  
+            <header className="bg-[#cbc7b7] h-[840px] w-full flex flex-col items-center justify-center">  
                 <div className="text-center">
                     <h1 className="text-black text-[128px] font-bold tracking-[.25em]">PROGRAMS</h1>
                     <h2 className="text-black text-[40px] mt-[48px] tracking-[.25em]">INTERNSHIP</h2>
@@ -19,8 +19,8 @@ const Internship = () => {
             </header>
 
              {/* Entire white section 4236*/}
-            <section className="bg-white w-[1440px] h-[589px] flex items-center justify-center">  {/* Overview */}
-                <div className="flex flex-col items-center justify-center  w-[816px] h-[258px]">
+            <section className="bg-white w-full h-[589px] flex items-center justify-center">  {/* Overview */}
+                <div className="flex flex-col items-center justify-center  w-[1088px] h-[258px]">
                     <div>
                         <h1 className="text-[40px] text-black tracking-[.1em]">OVERVIEW</h1>
                     </div>
@@ -34,12 +34,12 @@ const Internship = () => {
                 </div>
             </section>
 
-            <section className="bg-white w-[1440px] h-[775px] flex flex-col items-center justify-start"> {/* Intern Duties */}
+            <section className="bg-white w-full h-[775px] flex flex-col items-center justify-start"> {/* Intern Duties */}
                 <div className="w-full mt-[158px] flex items-center justify-center">
                     <h1 className="text-[40px] text-black tracking-[.1em]">INTERN DUTIES</h1>
                 </div>
-                <div className="w-[967.25px] mt-[121px] flex items-center justify-center">
-                    <div className="text-black flex items-center justify-center w-[967.25px] h-[339px] gap-[173.25px]">
+                <div className="w-[1100px] mt-[121px] flex items-center justify-center">
+                    <div className="text-black flex items-center justify-center w-[1100px] h-[339px] gap-[173.25px]">
                         <div className="flex flex-col items-center text-center w-[271px] h-[339px]">
                             <div className="w-[78px] h-[78px]">
                                 <img src={Instagram} alt="Duty Icon" className="w-[78px] h-[78px]" />
@@ -79,7 +79,7 @@ const Internship = () => {
                 </div>
             </section>
 
-            <section className="bg-white w-[1440px] h-[1565.5px] flex flex-col items-center justify-start"> {/* Benefits of Interning */}
+            <section className="bg-white w-full h-[1565.5px] flex flex-col items-center justify-start"> {/* Benefits of Interning */}
                 <div className="flex flex-col items-center justify-start h-full">
                     <div className="mt-[122px] flex items-start justify-center">
                         <h1 className="text-[40px] text-black tracking-[.1em]">BENEFITS OF INTERNING</h1>
@@ -157,7 +157,7 @@ const Internship = () => {
                 </div>
             </section>
 
-            <section className="bg-white w-[1440px] h-[761.5px] flex items-center justify-center"> {/* random pics?*/}
+            <section className="bg-white w-full h-[761.5px] flex items-center justify-center"> {/* random pics?*/}
                 <div className="carousel rounded-box mt-[155px] gap-[64px]">
                     <div className="carousel-item">
                         <img className="w-[613.5px] h-[372px] object-cover" src={fam_placeholder}/>
@@ -171,7 +171,7 @@ const Internship = () => {
                 </div>
             </section>
 
-            <footer className="bg-[#fee270] w-[1440px] h-[250px]">
+            <footer className="bg-[#fee270] w-full h-[250px]">
                 <Footer />
             </footer>
         </div>

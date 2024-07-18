@@ -51,19 +51,27 @@ const Family = () => {
                     <div className="grid grid-cols-2 w-[978.75px] h-[1211px]">
                         <div className="mr-[30px]"> {/* Aang Fam */}
                             <img className="w-[622px] h-[405px] object-cover" src={fam_placeholder}></img>
-                            <div className="mt-[40px]  text-[40px] text-black text-center tracking-[.1em]">AANG FAM</div>
+                            <div className="mt-[40px] text-[40px] text-black text-center tracking-[.1em]">
+                                <a href="https://www.instagram.com/_aang.fam_/">AANG FAM</a>
+                            </div>
                         </div>
                         <div className="ml-[30px]"> {/* Zuko Fam */}
                             <img className="w-[622px] h-[405px] object-cover" src={fam_placeholder}></img>
-                            <div className="mt-[40px]  text-[40px] text-black text-center tracking-[.1em]">ZUKO FAM</div>
+                            <div className="mt-[40px] text-[40px] text-black text-center tracking-[.1em]">
+                                <a href="https://www.instagram.com/zuko_fam/">AANG FAM</a>
+                            </div>
                         </div>
                         <div className="mr-[30px]"> {/* Suki Fam */}
                             <img className="w-[622px] h-[405px] object-cover" src={fam_placeholder}></img>
-                            <div className="mt-[40px]  text-[40px] text-black text-center tracking-[.1em]">SUKI FAM</div>
+                            <div className="mt-[40px] text-[40px] text-black text-center tracking-[.1em]">
+                                <a href="https://www.instagram.com/sukifam/">AANG FAM</a>
+                            </div>
                         </div>
                         <div className="ml-[30px]"> {/* Yue Fam */}
                             <img className="w-[622px] h-[405px] object-cover" src={fam_placeholder}></img>
-                            <div className="mt-[40px]  text-[40px] text-black text-center tracking-[.1em]">YUE FAM</div>
+                            <div className="mt-[40px] text-[40px] text-black text-center tracking-[.1em]">
+                                <a href="https://www.instagram.com/princessyuefam/">AANG FAM</a>
+                            </div>
                         </div>
                     </div>
                 </div>
