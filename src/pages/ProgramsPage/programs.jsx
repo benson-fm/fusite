@@ -75,12 +75,12 @@ const Programs = () => {
             OUR <span className="text-[#FBC80C]">FUSION</span> PROGRAMS
         </div>
         <ProgramCards Programs={ProgramCardInfo}/>
-        <div className="text-center py-48 px-80 space-y-32">
+        <div className="text-center py-48 px-72 space-y-32">
             <div className="text-6xl tracking-widest font-bold">
                 WORDS OF
             </div>
-            <div className="flex">
-                <img src={PersonPlaceholder} width={280} />
+            <div className="flex row gap-16">
+                <img src={PersonPlaceholder} width={280}/>
                 <div className="grid grid-cols-1 grid-rows-2 text-3xl">
                     <div>
                     “Lorem ipsum dolor sit amet, consectetur asim adipiscing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad mini venia, nostrud exercitation laboris nisi.”
@@ -90,7 +90,7 @@ const Programs = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex">
+            <div className="flex row gap-16">
                 <div className="grid grid-cols-1 grid-rows-2 text-3xl">
                     <div>
                     “Lorem ipsum dolor sit amet, consectetur asim adipiscing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad mini venia, nostrud exercitation laboris nisi.”
