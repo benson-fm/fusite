@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Karla:wght@400;700&display=swap');
+
+/* Font classes */
+.font-inter {
+    font-family: 'Inter', sans-serif;
+}
+
+.font-karla {
+    font-family: 'Karla', sans-serif;
+}
+
+.apply {
+    display: flex;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFF;
+    background-color: #FAC80A;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.apply:hover {
+    background-color: #FF8C00;
+}
