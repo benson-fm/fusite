@@ -13,11 +13,12 @@ const handleLink = (href) => {
 
 const Footer = () => {
   return (
-    <footer className="bg-[#0F0A00] text-white pt-16 min-h-[800px] flex flex-col justify-between">
-      <div className="flex flex-row gap-48 pt-[115px] px-[120px] items-start">
+    <footer className="bg-[#0F0A00] text-white pt-16 min-h-[800px] flex flex-col justify-between w-full">
+      {/* TODO: Change the gap to ensure that it fits all screens */}
+      <div className="flex flex-row gap-32 pt-[115px] px-[120px] items-start max-w-full">
         <div className="flex flex-col gap-7 text-xl tracking-[0.2em] text-[#FAC80A]">
           <p className="text-left font-medium">CONTACT US</p>
-          <div className="flex flex-row gap-3">
+          <div className="flex flex-row max-w-full gap-2">
             <img src={mail} alt="mail" className="w-[35px] h-[29px]" />
             <p>fusion@uci.edu</p>
           </div>
