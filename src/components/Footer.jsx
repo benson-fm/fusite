@@ -113,7 +113,7 @@ const Footer = () => {
         <img
           src={logo}
           alt="fusion"
-          className="absolute w-[500px] h-[500px] right-0 bottom-0"
+          className="absolute w-[300px] h-[300px] right-0 bottom-0"
         />
       </div>
     </footer>
