@@ -67,19 +67,7 @@
     right: 125px; /* Adjust positioning as needed */
 }
 
-.grid {
-    display: grid;
-    column-count: 2;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center; /* Center the grid horizontally */
-    align-items: stretch; /* Make sure columns stretch to the same height */
-    gap: 20px;
-    width: 80%;
-    margin: 50px auto; /* Center the grid and add space above */
-}
-
 .program {
-    width: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;

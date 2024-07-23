@@ -25,19 +25,19 @@ const WhatFusionOffers = () => {
           </p>
         </div>
       </div>
-      <div className='grid columns-2'>
-        <div className='program'>
+      <div className='w-full h-[604px] flex items-center justify-between px-10'>
+        <div className='program flex flex-col items-center'>
           <img src={Wrench} className='program-icon' alt="Engineering Project" />
-          <h3 className='font-karla font-[600] text-[24px] leading-[28px] text-black pt-[20px] tracking-[0.12em] spread-out'>ENGINEERING PROJECT</h3>
-          <p className='font-inter pt-[10px] font-[400] text-[16px] leading-[24px] text-black'>
+          <h3 className='font-karla font-[600] text-[24px] leading-[28px] text-black pt-[20px] tracking-[0.12em] spread-out w-[500px] text-center'>ENGINEERING PROJECT</h3>
+          <p className='font-inter pt-[10px] font-[400] text-[16px] leading-[24px] text-black w-[298px] text-center'>
             The FUSION Engineering Project (FEP) is a two-quarter program offering FUSION members the opportunity to participate in teams and enhance their engineering and programming knowledge.
           </p>
           <button className='learn-more text-ellipsis font-inter font-[500] text-[16px] leading-[30px] tracking-[0.16em]'>LEARN MORE</button>
         </div>
-        <div className='program'>
+        <div className='program flex flex-col items-center'>
           <img src={PC} className='program-icon' alt="ICS Project" />
-          <h3 className='font-karla font-[600] text-[24px] leading-[28px] text-black pt-[20px] tracking-[0.12em]'>ICS PROJECT</h3>
-          <p className='font-inter pt-[10px] font-[400] text-[16px] leading-[24px] text-black'>
+          <h3 className='font-karla font-[600] text-[24px] leading-[28px] text-black pt-[20px] tracking-[0.12em] w-[500px] text-center'>ICS PROJECT</h3>
+          <p className='font-inter pt-[10px] font-[400] text-[16px] leading-[24px] text-black w-[298px] text-center'>
             The FUSION Information & Computer Sciences Project is a two-quarter program designed for FUSION designers and developers to enhance their skills in coding and system design.
           </p>
           <button className='learn-more font-inter font-[500] text-[16px] leading-[30px] tracking-[0.16em]'>LEARN MORE</button>
