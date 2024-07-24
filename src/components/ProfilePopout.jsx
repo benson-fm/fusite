@@ -55,7 +55,7 @@ const ProfilePopout = ({ isOpen, onClose, profile }) => {
                             <a href={profile.linkedin} target="_blank" className="mr-2">
                                 <img src={LinkedIn} alt="LinkedIn" className="w-6 h-6" />
                             </a>
-                            <p className="text-[14px] text-black mb-4 font-semibold font-karla tracking-[0.12em] leading-[16.37px] pt-[10px]">
+                            <p className="text-[14px] text-black mb-2 font-semibold font-karla tracking-[0.12em] leading-[16.37px] pt-[10px]">
                                 {profile.contact}
                             </p>
                         </div>
