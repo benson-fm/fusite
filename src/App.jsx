@@ -12,6 +12,7 @@ import Board from './pages/Board'
 import { AlumniPage } from './pages/AlumniPage'
 import { MentorshipPage } from './pages/MentorshipPage'
 import Projects from './pages/ProjectsPage/Projects'
+import Fundraising from './pages/ProgramsPage/FundraisingPage/Fundraising'
 
 export default function App() {
   return (
@@ -23,14 +24,12 @@ export default function App() {
         <Route path="/Internship" element={<Internship />} />
         <Route path="/programs" element={<Programs/>} />
         <Route path="/AboutUs" element={<AboutUs />} />
-<<<<<<< HEAD
         <Route path="/meetingsPage" element={<MeetingsPage />} />
         <Route path="/Social" element={<Social />} />
         <Route path="/alumni" element={<AlumniPage />} />
         <Route path="/mentorship" element={<MentorshipPage />} />
-=======
         <Route path="/Projects" element={<Projects/>} />
->>>>>>> ProjectsPage
+        <Route path="/programs/fundraising" element={<Fundraising/>}/>
       </Routes>
     </Router>
   )
