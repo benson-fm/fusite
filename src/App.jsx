@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 
+import Family from './pages/Family'
+import Internship from './pages/Internship'
 import AboutUs from './pages/AboutUs'
 import Home from './pages/HomePage/Home'
 import Programs from './pages/ProgramsPage/programs'
@@ -16,6 +18,8 @@ export default function App() {
       <Routes>
         <Route path="/Board" element={<Board />} />
         <Route path="/" element={<Home />} />
+        <Route path="/Family" element={<Family />} />
+        <Route path="/Internship" element={<Internship />} />
         <Route path="/programs" element={<Programs/>} />
         <Route path="/AboutUs" element={<AboutUs />} />
         <Route path="/meetingsPage" element={<MeetingsPage />} />
