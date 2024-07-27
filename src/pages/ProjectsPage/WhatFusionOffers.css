@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Karla:wght@400;700&display=swap');
+
+/* Font classes */
+.font-inter {
+    font-family: 'Inter', sans-serif;
+}
+
+.font-karla {
+    font-family: 'Karla', sans-serif;
+}
+
+.body {
+    position: relative;
+    overflow: hidden; /* This will clip any overflowing content */
+    width: 100%;
+}
+
+.circle-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.circle {
+    width: 1200px;
+    height: 1200px;
+    position: absolute;
+    top: -250px; /* Adjust to position the circle correctly */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+
+.inner-circle {
+    width: 600px; /* Adjust as needed */
+    height: 600px; /* Adjust as needed */
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.text-content {
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+    width: 60%;
+}
+
+.pillar-icon {
+    position: absolute;
+    width: 80px; /* Adjust size as needed */
+    height: 80px; /* Adjust size as needed */
+}
+
+.pillar-icon1 {
+    top: 300px; /* Adjust positioning as needed */
+    left: 125px; /* Adjust positioning as needed */
+}
+
+.pillar-icon2 {
+    top: 300px; /* Adjust positioning as needed */
+    right: 125px; /* Adjust positioning as needed */
+}
+
+.program {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #FFF;
+}
+
+.program-icon {
+    width: 60px; /* Adjust size as needed */
+    height: 60px; /* Adjust size as needed */
+}
+
+.learn-more {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    background-color: #FFA523;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.learn-more:hover {
+    background-color: #FF8C00;
+}
