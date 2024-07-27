@@ -5,16 +5,13 @@ import Family from './pages/Family'
 import Internship from './pages/Internship'
 import AboutUs from './pages/AboutUs'
 import Home from './pages/HomePage/Home'
-<<<<<<< HEAD
 import Programs from './pages/ProgramsPage/programs'
 import { MeetingsPage } from './pages/meetingsPage'
 import Social from './pages/Social'
 import Board from './pages/Board'
 import { AlumniPage } from './pages/AlumniPage'
 import { MentorshipPage } from './pages/MentorshipPage'
-=======
 import Projects from './pages/ProjectsPage/Projects'
->>>>>>> ProjectsPage
 
 export default function App() {
   return (
