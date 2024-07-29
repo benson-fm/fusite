@@ -5,7 +5,7 @@ import Appointed from "../components/Appointed";
 const Board = () => {
     return (
         <>
-            <div>
+            <div className="overflow-x-hidden">
                 <MeetTheTeam />
                 <Executive />
                 <Appointed className='pt-[20px]'/>

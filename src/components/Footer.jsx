@@ -13,9 +13,9 @@ const handleLink = (href) => {
 
 const Footer = () => {
   return (
-    <footer className="bg-[#0F0A00] text-white pt-16 min-h-[800px] flex flex-col justify-between w-full">
+    <footer className="bg-[#0F0A00] text-white pt-16 min-h-[800px] flex flex-col justify-between min-w-full overflow-x-hidden">
       {/* TODO: Change the gap to ensure that it fits all screens */}
-      <div className="flex flex-row md:gap-32 lg:gap-36 xl:gap-40 2xl:gap-48 pt-[115px] px-[120px] items-start max-w-full">
+      <div className="flex  flex-col lg:flex-row gap-7 md:gap-16 lg:gap-24 xl:gap-36 2xl:gap-48 pt-28 px-28 items-start max-w-full">
         <div className="flex flex-col gap-7 text-xl tracking-[0.2em] text-[#FAC80A]">
           <p className="text-left font-medium">CONTACT US</p>
           <div className="flex flex-row max-w-full gap-2">
@@ -86,15 +86,15 @@ const Footer = () => {
             </li>
           </ul>
         </nav>
-        <div className="flex flex-col space-y-6 text-left">
+        <div className="flex flex-col space-y-6 text-left w-3/6">
           <p>JOIN OUR NEWSLETTER</p>
-          <div className="grid grid-cols-3 w-[500px]">
+          <div className="flex flex-row w-full min-w-32">
             <input
               type="email"
               placeholder="Email Address"
-              className="placeholder:text-black col-span-2 h-[50px] bg-[#7D7D7D] rounded-bl-3xl pl-[20px] font-medium"
+              className="placeholder:text-black basis-2/3  h-[50px] bg-[#7D7D7D] rounded-bl-3xl pl-[20px] font-medium"
             />
-            <button className="bg-[#FAC80A] h-[50px] col-span-1 rounded-tr-3xl text-black font-medium">
+            <button className="bg-[#FAC80A] h-[50px] basis-1/3 rounded-tr-3xl text-black font-medium">
               Subscribe
             </button>
           </div>
@@ -108,7 +108,7 @@ const Footer = () => {
               Copyright FUSION 2024
             </p>
           </div>
-          <p className="text-sm text-[#7D7D7D]">Developed by Benson Manzano, Daniela Herrera, Noah Tizon, Arvin Limjoco, Leilani Bascos, Dommenick Lacuata, Arlaghn Cayanan, Ariel Abaincia, Ethan Santos</p>
+          <p className="text-sm text-[#7D7D7D] z-50">Developed by Benson Manzano, Daniela Herrera, Noah Tizon, Arvin Limjoco, Leilani Bascos, Dommenick Lacuata, Arlaghn Cayanan, Ariel Abaincia, Ethan Santos</p>
         </div>
         <img
           src={logo}
