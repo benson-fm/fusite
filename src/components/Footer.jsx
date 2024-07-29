@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#0F0A00] text-white pt-16 min-h-[800px] flex flex-col justify-between min-w-full overflow-x-hidden">
       {/* TODO: Change the gap to ensure that it fits all screens */}
-      <div className="flex  flex-col lg:flex-row gap-7 md:gap-16 lg:gap-24 xl:gap-36 2xl:gap-48 pt-28 px-28 items-start max-w-full">
+      <div className="flex  flex-col lg:flex-row gap-7 md:gap-16 lg:gap-24 xl:gap-36 2xl:gap-44 pt-28 px-28 items-start max-w-full">
         <div className="flex flex-col gap-7 text-xl tracking-[0.2em] text-[#FAC80A]">
           <p className="text-left font-medium">CONTACT US</p>
           <div className="flex flex-row max-w-full gap-2">
