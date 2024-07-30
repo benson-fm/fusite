@@ -29,17 +29,18 @@ function renderTitle(title, subtitle, homeNav) {
 
 function Navbar({ bg, title, subtitle, homeNav = false }) {
   const navigate = useNavigate();
+  
   const handleHome = () => {
     navigate("/");
   };
   const handleAbout = () => {
-    navigate("/about");
+    navigate("/AboutUs");
   };
   const handleProjects = () => {
-    navigate("/projects");
+    navigate("/Projects");
   };
   const handleBoard = () => {
-    navigate("/board");
+    navigate("/Board");
   };
   const handlePrograms = () => {
     navigate("/programs");

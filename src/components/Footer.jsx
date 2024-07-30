@@ -7,54 +7,38 @@ import Tiktok from "../assets/tiktok.png";
 import copy from "../assets/copy.png";
 import mail from "../assets/mail.png";
 
-const handleLink = (href) => {
-  window.open(href, "_blank");
-};
+// const handleLink = (href) => {
+//   window.open(href, "_blank");
+// };
 
 const Footer = () => {
   return (
     <footer className="bg-[#0F0A00] text-white pt-16 min-h-[800px] flex flex-col justify-between min-w-full overflow-x-hidden">
-      {/* TODO: Change the gap to ensure that it fits all screens */}
-      <div className="flex  flex-col lg:flex-row gap-7 md:gap-16 lg:gap-24 xl:gap-36 2xl:gap-44 pt-28 px-28 items-start max-w-full">
-        <div className="flex flex-col gap-7 text-xl tracking-[0.2em] text-[#FAC80A]">
+      <div className="flex flex-col lg:flex-row gap-7 md:gap-16 lg:gap-24 xl:gap-36 2xl:gap-48 pt-28 px-28 items-start max-w-full">
+        <div className="flex flex-col gap-7 lg:text-md xl:text-xl tracking-[0.2em] text-[#FAC80A]">
           <p className="text-left font-medium">CONTACT US</p>
           <div className="flex flex-row max-w-full gap-2">
-            <img src={mail} alt="mail" className="w-[35px] h-[29px]" />
+            <img src={mail} alt="mail" className="w-[20px] h-[20px] xl:w-[35px] xl:h-[29px]" />
             <p>fusion@uci.edu</p>
           </div>
         </div>
         <div className="flex flex-row">
           <div className="flex flex-col gap-7 w-14 items-center">
-            <img
-              src={Instagram}
-              alt="Instagram"
-              className="h-[25px]"
-              onClick={handleLink("https://www.instagram.com/ucifusion/")}
-            />
-            <img
-              src={Discord}
-              alt="Discord"
-              className="h-[25px]"
-              onClick={handleLink("https://discord.com/invite/ucifusion")}
-            />
-            <img
-              src={Facebook}
-              alt="Facebook"
-              className="h-[25px]"
-              onClick={handleLink("https://www.facebook.com/ucifusion")}
-            />
-            <img
-              src={LinkedIn}
-              alt="LinkedIn"
-              className="h-[25px]"
-              onClick={handleLink("https://www.linkedin.com/company/ucifusion")}
-            />
-            <img
-              src={Tiktok}
-              alt="Tiktok"
-              className="h-[25px]"
-              onClick={handleLink("https://www.tiktok.com/@ucifusion")}
-            />
+          <a href="https://www.instagram.com/ucifusion/" target="_blank" rel="noopener noreferrer">
+              <img src={Instagram} alt="Instagram" className="h-[25px]" />
+            </a>
+            <a href="https://discord.com/invite/ucifusion" target="_blank" rel="noopener noreferrer">
+              <img src={Discord} alt="Discord" className="h-[25px]" />
+            </a>
+            <a href="https://www.facebook.com/ucifusion" target="_blank" rel="noopener noreferrer">
+              <img src={Facebook} alt="Facebook" className="h-[25px]" />
+            </a>
+            <a href="https://www.linkedin.com/company/ucifusion" target="_blank" rel="noopener noreferrer">
+              <img src={LinkedIn} alt="LinkedIn" className="h-[25px]" />
+            </a>
+            <a href="https://www.tiktok.com/@ucifusion" target="_blank" rel="noopener noreferrer">
+              <img src={Tiktok} alt="Tiktok" className="h-[25px]" />
+            </a>
           </div>
           <div className="flex flex-col gap-7 w-24 text-left">
             <p className="h-[25px]">Instagram</p>
