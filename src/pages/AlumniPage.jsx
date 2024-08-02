@@ -32,8 +32,29 @@ export function AlumniPage() {
             <div className="w-full">
                 <img src={alum_panel}/>
             </div>
-            {/* alumni scholarship */}
-           
+            {/* alumni scholarship w-[86%] h-[83%]*/}
+            <div className="w-full h-[540px] bg-[#fff5eb] flex flex-row ">
+                <div className="w-1/3 h-[76%] bg-white rounded-b-[60px] rounded-tl-[60px] ml-[16%] mt-[6%]">
+                    <div className="w-[85%] ml-[7%]">
+                        <h1 className="font-[700] text-[#FFA523] mt-[9%] tracking-[.1em]">EMPOWERING FUTURES &gt;&gt;</h1>
+                        <h1 className="text-black text-3xl font-[700] mt-[3%] ">Alumni Scholarships for Tomorrow's Leaders</h1>
+                        <hr className="w-16 h-1  bg-[#FAC80A] border-0 rounded mt-[5%]"/>
+                        <p className="text-xs text-black mt-[5%] leading-[22px]">FUSION is proud to offer alumni-sponsored scholarships, a testament to the strong support and dedication 
+                            of our alumni network. These scholarships are designed to empower current members by providing financial 
+                            assistance and recognizing their academic and professional achievements. Through the generosity of our 
+                            alumni, we continue to foster a culture of excellence and ambition, ensuring that every member has the 
+                            opportunity to succeed and make a lasting impact in the STEM fields.</p>
+                    </div>
+                </div>
+
+                <div className="w-[35%] h-[55%] bg-black rounded-bl-[40px] rounded-tr-[40px] mt-[8%] ml-[4%]">
+                    {/* pic */}
+                </div>
+
+            </div>
+            <div className="w-full h-[920px] bg-black flex flex-row">
+
+            </div>
         </div>
     );
 }
@@ -43,19 +64,6 @@ export default AlumniPage;
 
 
 {/* 
-<div className="w-full h-[540px] bg-white justify-center text-center">
-                <div className="font-semibold text-5xl mt-25">
-                    How do we <span className="text-[#FFA523] ">Fundraise</span>?
-                </div>
-                <hr className="w-48 h-1 mx-auto my-4 bg-[#FAC80A] my-10 border-0 rounded"/>
-                <p>
-                At FUSION, we believe in the power of lifelong connections. Our strong alumni network is a testament 
-                to the enduring relationships formed within our community. We actively engage with our alumni through 
-                regular events and networking opportunities, ensuring they remain an integral part of FUSION's growth 
-                and success. By fostering these connections, we provide current members with invaluable guidance and 
-                support, while celebrating the achievements of our alumni in their professional journeys.
-                </p>
-            </div>
 
 
 
