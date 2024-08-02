@@ -1,12 +1,72 @@
+import Navbar from "../components/Navbar";
+import alum_navbar from "../assets/alum_navbar.png";
+import alum_panel from "../images/alum_panel.png";
+import alum_scholarship from "../assets/alum_scholarship.png";
+
+
+
+
+export function AlumniPage() {
+    return (
+        <div className="flex flex-col overflow-x-hidden">
+            <Navbar title="ALUMNI" subtitle="PROGRAMS" bg={alum_navbar} />
+            {/* Give Back and Get Involved */}
+            <div className="w-full h-[540px] bg-white flex justify-center items-center">
+                <div className="w-[58%] h-1/2 text-center">
+                    <div className="font-semibold text-5xl">
+                        <span className="text-[#FFA523]">Give Back</span> <span className="text-black">and Get Involved</span>
+                    </div>
+                    <hr className="w-48 h-1 mx-auto bg-[#FAC80A] border-0 rounded my-10"/>
+                    <div className="h-1/2 flex justify-center items-center">
+                        <p className="text-black text-center">
+                        At FUSION, we believe in the power of lifelong connections. Our strong alumni network is a testament 
+                        to the enduring relationships formed within our community. We actively engage with our alumni through 
+                        regular events and networking opportunities, ensuring they remain an integral part of FUSION's growth 
+                        and success. By fostering these connections, we provide current members with invaluable guidance and 
+                        support, while celebrating the achievements of our alumni in their professional journeys.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            {/* alumni panel pic */}
+            <div className="w-full">
+                <img src={alum_panel}/>
+            </div>
+            {/* alumni scholarship */}
+           
+        </div>
+    );
+}
+
+export default AlumniPage;
+
+
+
+{/* 
+<div className="w-full h-[540px] bg-white justify-center text-center">
+                <div className="font-semibold text-5xl mt-25">
+                    How do we <span className="text-[#FFA523] ">Fundraise</span>?
+                </div>
+                <hr className="w-48 h-1 mx-auto my-4 bg-[#FAC80A] my-10 border-0 rounded"/>
+                <p>
+                At FUSION, we believe in the power of lifelong connections. Our strong alumni network is a testament 
+                to the enduring relationships formed within our community. We actively engage with our alumni through 
+                regular events and networking opportunities, ensuring they remain an integral part of FUSION's growth 
+                and success. By fostering these connections, we provide current members with invaluable guidance and 
+                support, while celebrating the achievements of our alumni in their professional journeys.
+                </p>
+            </div>
+
+
+
 import PlaceholderPic from '../assets/placeholderPic.png';
 import Gmail from '../assets/Gmail.png';
 import Facebook from '../images/Facebook.png';
 import LinkedIn from '../images/LinkedIn.png';
 import Footer from "../components/Footer";
 
-export function AlumniPage() {
-    return (
-        <div className="flex flex-col items-center justify-center w-full min-h-screen bg-white p-8 overflow-x-hidden">
+
+<div className="flex flex-col items-center justify-center w-full min-h-screen bg-white p-8 overflow-x-hidden">
             <div className="max-w-[1088px] w-full flex flex-col justify-center items-center gap-10">
                 <h1 className="text-black text-center font-inter text-4xl font-medium mt-20" style={{ letterSpacing: '8px' }}>
                     ALUMNI NETWORK
@@ -84,7 +144,4 @@ export function AlumniPage() {
             </div>
             <div className='mt-20'></div>
             <Footer />
-        </div>
-        
-    );
-}
+        </div> */}
