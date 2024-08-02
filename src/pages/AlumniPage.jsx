@@ -2,6 +2,9 @@ import Navbar from "../components/Navbar";
 import alum_navbar from "../assets/alum_navbar.png";
 import alum_panel from "../images/alum_panel.png";
 import alum_scholarship from "../assets/alum_scholarship.png";
+import alum_picnic from "../images/alum_picnic.png";
+import fep_award from "../images/fep_award.png";
+
 
 
 
@@ -28,11 +31,13 @@ export function AlumniPage() {
                     </div>
                 </div>
             </div>
+
             {/* alumni panel pic */}
             <div className="w-full">
                 <img src={alum_panel}/>
             </div>
-            {/* alumni scholarship w-[86%] h-[83%]*/}
+
+            {/* alumni scholarship */}
             <div className="w-full h-[540px] bg-[#fff5eb] flex flex-row ">
                 <div className="w-1/3 h-[76%] bg-white rounded-b-[60px] rounded-tl-[60px] ml-[16%] mt-[6%]">
                     <div className="w-[85%] ml-[7%]">
@@ -46,14 +51,27 @@ export function AlumniPage() {
                             opportunity to succeed and make a lasting impact in the STEM fields.</p>
                     </div>
                 </div>
-
-                <div className="w-[35%] h-[55%] bg-black rounded-bl-[40px] rounded-tr-[40px] mt-[8%] ml-[4%]">
-                    {/* pic */}
-                </div>
-
+                <img src={fep_award} className="w-[33%] h-[55%] rounded-bl-[40px] rounded-tr-[40px] mt-[8%] ml-[4%]"></img>
             </div>
-            <div className="w-full h-[920px] bg-black flex flex-row">
 
+            {/* Network w pros */}
+            <div className="w-full h-[540px] bg-white flex flex-row ">
+                <img src={alum_picnic} className="w-[35%] h-[55%] mt-[8%] ml-[16%]"></img>
+                <div className="w-1/3 h-[65%] bg-[#f8f8f8] rounded-t-[60px] rounded-br-[60px] ml-[4%] mt-[7.5%]">
+                    <div className="w-[85%] ml-[7%]">
+                        <h1 className="font-[700] text-[#FFA523] mt-[7%] tracking-[.1em]">CONNECT AND COLLABORATE &gt;&gt;</h1>
+                        <h1 className="text-black text-3xl font-[700] mt-[3%] ">Network with Professionals</h1>
+                        <hr className="w-16 h-1  bg-[#FAC80A] border-0 rounded mt-[5%]"/>
+                        <p className="text-xs text-black mt-[5%] leading-[22px]">These events bring together our current undergraduate 
+                        members with FUSION alumni, fostering an environment of collaboration and mentorship. Through workshops, panels, 
+                        and social gatherings, our members gain invaluable insights, establish professional relationships, and expand 
+                        their career prospects. Join us at our networking events and become part of a thriving community dedicated to 
+                        mutual growth and success in the STEM fields!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="w-full h-[920px] bg-black">
             </div>
         </div>
     );
