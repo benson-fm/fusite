@@ -4,6 +4,11 @@ import alum_panel from "../images/alum_panel.png";
 import alum_scholarship from "../assets/alum_scholarship.png";
 import alum_picnic from "../images/alum_picnic.png";
 import fep_award from "../images/fep_award.png";
+import alum_triangle from "../assets/alum_triangle.png";
+import alum_dots1 from "../assets/alum_dots1.png";
+import alum_circles1 from "../assets/alum_circles1.png";
+import alum_vector1 from "../assets/alum_vector1.png";
+import alum_circles2 from "../assets/alum_circles2.png";
 
 
 
@@ -33,25 +38,36 @@ export function AlumniPage() {
             </div>
 
             {/* alumni panel pic */}
-            <div className="w-full">
+            <div className="w-full reletive z-10">
                 <img src={alum_panel}/>
             </div>
 
             {/* alumni scholarship */}
-            <div className="w-full h-[540px] bg-[#fff5eb] flex flex-row ">
-                <div className="w-1/3 h-[76%] bg-white rounded-b-[60px] rounded-tl-[60px] ml-[16%] mt-[6%]">
-                    <div className="w-[85%] ml-[7%]">
-                        <h1 className="font-[700] text-[#FFA523] mt-[9%] tracking-[.1em]">EMPOWERING FUTURES &gt;&gt;</h1>
-                        <h1 className="text-black text-3xl font-[700] mt-[3%] ">Alumni Scholarships for Tomorrow's Leaders</h1>
-                        <hr className="w-16 h-1  bg-[#FAC80A] border-0 rounded mt-[5%]"/>
-                        <p className="text-xs text-black mt-[5%] leading-[22px]">FUSION is proud to offer alumni-sponsored scholarships, a testament to the strong support and dedication 
-                            of our alumni network. These scholarships are designed to empower current members by providing financial 
-                            assistance and recognizing their academic and professional achievements. Through the generosity of our 
-                            alumni, we continue to foster a culture of excellence and ambition, ensuring that every member has the 
-                            opportunity to succeed and make a lasting impact in the STEM fields.</p>
+            <div className="w-full h-[540px] bg-[#fff5eb] flex flex-row">
+                <div className="w-[60%] h-full relative">
+                    <div className="w-[62%] h-[76%] bg-white rounded-b-[60px] rounded-tl-[60px] ml-[27%] mt-[10%] z-10 relative border-2 border-white">
+                        <div className="w-[85%] ml-[7%]">
+                            <h1 className="font-[700] text-[#FFA523] mt-[9%] tracking-[.1em]">EMPOWERING FUTURES &gt;&gt;</h1>
+                            <h1 className="text-black text-3xl font-[700] mt-[3%] ">Alumni Scholarships for Tomorrow's Leaders</h1>
+                            <hr className="w-16 h-1  bg-[#FAC80A] border-0 rounded mt-[5%]"/>
+                            <p className="text-xs text-black mt-[5%] leading-[22px]">FUSION is proud to offer alumni-sponsored scholarships, a testament to the strong support and dedication 
+                                of our alumni network. These scholarships are designed to empower current members by providing financial 
+                                assistance and recognizing their academic and professional achievements. Through the generosity of our 
+                                alumni, we continue to foster a culture of excellence and ambition, ensuring that every member has the 
+                                opportunity to succeed and make a lasting impact in the STEM fields.</p>
+                        </div>
                     </div>
+                    <img src={alum_vector1} className="w-80 h-60 absolute transform translate-y-[-207%] z-0"/>
+                    <img src={alum_circles2} className="w-14 h-16 absolute transform translate-y-[-630%] translate-x-[270%] z-5"/>
                 </div>
-                <img src={fep_award} className="w-[33%] h-[55%] rounded-bl-[40px] rounded-tr-[40px] mt-[8%] ml-[4%]"></img>
+                <div className="w-[35%] h-full relative">
+                    <img src={fep_award} className="w-[90%] h-[55%] mt-[24%] rounded-bl-[40px] rounded-tr-[40px] z-10 relative"/>
+                    <img src={alum_circles1} className="w-14 h-24 absolute transform translate-x-[728%] translate-y-[-75%] z-0"/>
+                </div>
+                <div className="flex flex-col flex-grow justify-start items-end">
+                    <img src={alum_triangle} className="w-28 h-28"/>
+                    <img src={alum_dots1} className="w-28 h-28"/>
+                </div>
             </div>
 
             {/* Network w pros */}
