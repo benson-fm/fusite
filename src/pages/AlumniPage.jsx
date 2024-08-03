@@ -6,9 +6,16 @@ import alum_picnic from "../images/alum_picnic.png";
 import fep_award from "../images/fep_award.png";
 import alum_triangle from "../assets/alum_triangle.png";
 import alum_dots1 from "../assets/alum_dots1.png";
+import alum_dots2 from "../assets/alum_dots2.png";
+import alum_dots3 from "../assets/alum_dots3.png";
 import alum_circles1 from "../assets/alum_circles1.png";
 import alum_vector1 from "../assets/alum_vector1.png";
 import alum_circles2 from "../assets/alum_circles2.png";
+import alum_shadow1 from "../assets/alum_shadow1.png";
+import alum_shadow2 from "../assets/alum_shadow2.png";
+import alum_rectangle from "../assets/alum_rectangle.png";
+
+
 
 
 
@@ -59,6 +66,7 @@ export function AlumniPage() {
                     </div>
                     <img src={alum_vector1} className="w-80 h-60 absolute transform translate-y-[-207%] z-0"/>
                     <img src={alum_circles2} className="w-14 h-16 absolute transform translate-y-[-630%] translate-x-[270%] z-5"/>
+                    <img src={alum_shadow1} className="w-80 h-8 absolute transform translate-x-[100%] translate-y-[50%] z-0"/>
                 </div>
                 <div className="w-[35%] h-full relative">
                     <img src={fep_award} className="w-[90%] h-[55%] mt-[24%] rounded-bl-[40px] rounded-tr-[40px] z-10 relative"/>
@@ -71,9 +79,9 @@ export function AlumniPage() {
             </div>
 
             {/* Network w pros */}
-            <div className="w-full h-[540px] bg-white flex flex-row ">
-                <img src={alum_picnic} className="w-[35%] h-[55%] mt-[8%] ml-[16%]"></img>
-                <div className="w-1/3 h-[65%] bg-[#f8f8f8] rounded-t-[60px] rounded-br-[60px] ml-[4%] mt-[7.5%]">
+            <div className="w-full h-[540px] bg-white flex flex-row relative">
+                <img src={alum_picnic} className="w-[35%] h-[55%] mt-[8%] ml-[16%] z-10"></img>
+                <div className="w-1/3 h-[65%] bg-[#f8f8f8] rounded-t-[60px] rounded-br-[60px] ml-[4%] mt-[7.5%] z-10">
                     <div className="w-[85%] ml-[7%]">
                         <h1 className="font-[700] text-[#FFA523] mt-[7%] tracking-[.1em]">CONNECT AND COLLABORATE &gt;&gt;</h1>
                         <h1 className="text-black text-3xl font-[700] mt-[3%] ">Network with Professionals</h1>
@@ -85,6 +93,11 @@ export function AlumniPage() {
                         mutual growth and success in the STEM fields!</p>
                     </div>
                 </div>
+                <img src={alum_rectangle} className="w-[30%] absolute transform translate-x-[33%] translate-y-[11%] z-0"/>
+                <img src={alum_dots2} className="w-24 h-20 absolute transform translate-x-[204%] translate-y-[100%] z-0"/>
+                <img src={alum_dots3} className="w-24 h-20 absolute transform translate-x-[668%] translate-y-[465%] z-0"/>
+                <img src={alum_shadow2} className="w-64 h-8 absolute transform translate-x-[352%] translate-y-[1490%] z-0"/>
+
             </div>
 
             <div className="w-full h-[920px] bg-black">
