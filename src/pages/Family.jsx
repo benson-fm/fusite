@@ -8,6 +8,7 @@ import family_background from '../images/FamilyBackground.png';
 import FamilyNavbar from '../pages/ProgramsPage/FamilyPage/FamilyNavbar.jsx';
 import WhatIsFam from '../pages/ProgramsPage/FamilyPage/WhatIsFam.jsx';
 import OrangeFam from "./ProgramsPage/FamilyPage/OrangeFam.jsx";
+import FamilyGallery from './ProgramsPage/FamilyPage/FamilyGallery.jsx';
 
 const FamPic = ({ title, image }) => (
     <div className="flex items-center justify-center w-[225px] h-[453px]">
@@ -32,17 +33,8 @@ const Family = () => {
             {/* individual fam section 1540 */}
             <OrangeFam></OrangeFam>
 
-            <section className="bg-white w-full h-[1218px] flex flex-col items-center justify-start"> {/* fam gallery section 1218 */}
-                <div className="flex flex-col items-center justify-start w-[1274px] h-[836px] mt-[67px]">
-                    <div>
-                        <h1 className="text-[40px] text-black tracking-[.1em]">FAM GALLERY</h1>
-                    </div>
-                    <div className="mt-[63px]">
-                        <img className="w-[955.5px] h-[738px] object-cover" src={fam_placeholder}/>                  
-                    </div>
-                </div>
-            </section>
-
+            {/* fam gallery section 1218 */}
+            <FamilyGallery></FamilyGallery>
             <footer className="bg-[#fee270] w-full h-[250px]">
                 <Footer />
             </footer>
