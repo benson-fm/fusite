@@ -4,7 +4,9 @@
 import React from "react";
 import Footer from "../components/Footer";
 import fam_placeholder from '../images/fam_placeholder.png';
-
+import family_background from '../images/FamilyBackground.png';
+import FamilyNavbar from '../pages/ProgramsPage/FamilyPage/FamilyNavbar.jsx';
+import WhatIsFam from '../pages/ProgramsPage/FamilyPage/WhatIsFam.jsx';
 
 const FamPic = ({ title, image }) => (
     <div className="flex items-center justify-center w-[225px] h-[453px]">
@@ -21,27 +23,10 @@ const FamPic = ({ title, image }) => (
 const Family = () => {
     return (
         <div className="flex flex-col"> {/* parent container */}
-            <header className="bg-[#cbc7b7] h-[840px] w-full flex flex-col items-center justify-center">  
-                <div className="text-center">
-                    <h1 className="text-black text-[128px] font-bold tracking-[.25em]">PROGRAMS</h1>
-                    <h2 className="text-black text-[40px] mt-[48px] tracking-[.25em]">FAMILY</h2>
-                </div>
-            </header>
-
+            <FamilyNavbar bg={family_background} title="FAMILY" subtitle="PROGRAMS" homeNav={true} className="z-20">
+            </FamilyNavbar>
              {/* Entire white section 3352*/}
-            <section className="bg-white w-full h-[594px] flex items-center justify-center"> {/* What is Fam system section 594*/}
-                <div className="flex flex-col items-center justify-center  w-[816px] h-[258px]">
-                    <div>
-                        <h1 className="text-[40px] text-black tracking-[.1em]">WHAT IS OUR FAM SYSTEM</h1>
-                    </div>
-                    <div className="mt-[55px]">
-                        <p className="text-xl text-black text-center">General members are assigned to a FUSION Family, referred to as “Fams,” 
-                        with each named according to the theme of the school year. This system promotes camaraderie, professional 
-                        development, and cultural enrichment through social gatherings, challenges, and friendly competition. The 
-                        FUSION Family system significantly contributes to creating a strong sense of community within the organization.</p>
-                    </div>
-                </div>
-            </section>
+            <WhatIsFam></WhatIsFam>
 
             <section className="bg-white w-full h-[1540px]"> {/* individual fam section 1540 */}
                 <div className="flex items-start justify-center w-full mt-[105px]">   {/* header container */}
