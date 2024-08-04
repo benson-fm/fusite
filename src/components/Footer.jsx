@@ -14,7 +14,7 @@ import mail from "../assets/mail.png";
 const Footer = () => {
   return (
     <footer className="bg-[#0F0A00] text-white pt-16 min-h-[800px] flex flex-col justify-between min-w-full overflow-x-hidden">
-      <div className="flex flex-col lg:flex-row gap-7 md:gap-12 lg:gap-14 xl:gap-16 2xl:gap-24 3xl:gap-36 pt-28 px-28 items-start max-w-full lg:text-md md:text-sm">
+      <div className="flex flex-col lg:flex-row gap-7 md:gap-12 lg:gap-14 xl:gap-16 2xl:gap-24 3xl:gap-48 pt-28 px-28 items-start max-w-full lg:text-md md:text-sm">
         <div className="flex flex-col gap-7 lg:text-md xl:text-xl tracking-[0.2em] text-[#FAC80A]">
           <p className="text-left font-medium">CONTACT US</p>
           <div className="flex flex-row max-w-full gap-2">
