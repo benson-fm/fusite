@@ -7,6 +7,7 @@ import fam_placeholder from '../images/fam_placeholder.png';
 import family_background from '../images/FamilyBackground.png';
 import FamilyNavbar from '../pages/ProgramsPage/FamilyPage/FamilyNavbar.jsx';
 import WhatIsFam from '../pages/ProgramsPage/FamilyPage/WhatIsFam.jsx';
+import OrangeFam from "./ProgramsPage/FamilyPage/OrangeFam.jsx";
 
 const FamPic = ({ title, image }) => (
     <div className="flex items-center justify-center w-[225px] h-[453px]">
@@ -28,39 +29,8 @@ const Family = () => {
              {/* Entire white section 3352*/}
             <WhatIsFam></WhatIsFam>
 
-            <section className="bg-white w-full h-[1540px]"> {/* individual fam section 1540 */}
-                <div className="flex items-start justify-center w-full mt-[105px]">   {/* header container */}
-                    <h1 className="text-[40px] text-black tracking-[.1em]">2023-2024 FAMS</h1>
-                </div>
-                <div className="flex items-start justify-center w-full mt-[115px]"> {/* body container */}
-                    <div className="grid grid-cols-2 w-[978.75px] h-[1211px]">
-                        <div className="mr-[30px]"> {/* Aang Fam */}
-                            <img className="w-[622px] h-[405px] object-cover" src={fam_placeholder}></img>
-                            <div className="mt-[40px] text-[40px] text-black text-center tracking-[.1em]">
-                                <a href="https://www.instagram.com/_aang.fam_/">AANG FAM</a>
-                            </div>
-                        </div>
-                        <div className="ml-[30px]"> {/* Zuko Fam */}
-                            <img className="w-[622px] h-[405px] object-cover" src={fam_placeholder}></img>
-                            <div className="mt-[40px] text-[40px] text-black text-center tracking-[.1em]">
-                                <a href="https://www.instagram.com/zuko_fam/">AANG FAM</a>
-                            </div>
-                        </div>
-                        <div className="mr-[30px]"> {/* Suki Fam */}
-                            <img className="w-[622px] h-[405px] object-cover" src={fam_placeholder}></img>
-                            <div className="mt-[40px] text-[40px] text-black text-center tracking-[.1em]">
-                                <a href="https://www.instagram.com/sukifam/">AANG FAM</a>
-                            </div>
-                        </div>
-                        <div className="ml-[30px]"> {/* Yue Fam */}
-                            <img className="w-[622px] h-[405px] object-cover" src={fam_placeholder}></img>
-                            <div className="mt-[40px] text-[40px] text-black text-center tracking-[.1em]">
-                                <a href="https://www.instagram.com/princessyuefam/">AANG FAM</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            {/* individual fam section 1540 */}
+            <OrangeFam></OrangeFam>
 
             <section className="bg-white w-full h-[1218px] flex flex-col items-center justify-start"> {/* fam gallery section 1218 */}
                 <div className="flex flex-col items-center justify-start w-[1274px] h-[836px] mt-[67px]">
