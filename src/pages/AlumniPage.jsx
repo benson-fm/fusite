@@ -4,12 +4,14 @@ import alum_navbar from "../assets/alum_navbar.png";
 import alum_panel from "../images/alum_panel.png";
 import alum_scholarship from "../assets/alum_scholarship.png";
 import alum_picnic from "../images/alum_picnic.png";
+import alum_picnic2 from "../assets/alum_picnic2.png";
 import fep_award from "../images/fep_award.png";
 import alum_triangle from "../assets/alum_triangle.png";
 import alum_dots1 from "../assets/alum_dots1.png";
 import alum_dots2 from "../assets/alum_dots2.png";
 import alum_dots3 from "../assets/alum_dots3.png";
 import alum_vector1 from "../assets/alum_vector1.png";
+import alum_vector2 from "../assets/alum_vector2.png";
 import alum_circles1 from "../assets/alum_circles1.png";
 import alum_circles2 from "../assets/alum_circles2.png";
 import alum_circles3 from "../assets/alum_circles3.png";
@@ -19,9 +21,9 @@ import alum_shadow2 from "../assets/alum_shadow2.png";
 import alum_shadow3 from "../assets/alum_shadow3.png";
 import alum_rectangle from "../assets/alum_rectangle.png";
 import rod from "../images/rod.png";
-
-
-
+import alum_facebook from "../assets/alum_facebook.png";
+import alum_linkedin from "../assets/alum_linkedin.png";
+import alum_email from "../assets/alum_email.png";
 
 
 
@@ -107,7 +109,7 @@ export function AlumniPage() {
 
             {/* Celebrating Alum Stories */}
             <div className="w-full h-[540px] bg-[#fff5eb] flex flex-row">
-                <div className="w-[54%] h-full relative border-2 border-black">
+                <div className="w-[54%] h-full relative ">
                     <div className="w-[62%] h-[71%] bg-white rounded-b-[60px] rounded-tl-[60px] ml-[30%] mt-[11%] z-10 relative border-2 border-white">
                         <div className="w-[85%] ml-[7%]">
                             <h1 className="font-[700] text-[#FFA523] mt-[7%] tracking-[.1em]">ALUMNI SPOTLIGHT &gt;&gt;</h1>
@@ -122,9 +124,42 @@ export function AlumniPage() {
                     <img src={alum_circles2} className="w-14 h-16 absolute transform translate-y-[-630%] translate-x-[270%] z-5"/>
                     <img src={alum_shadow3} className="w-72 h-8 absolute transform translate-x-[113%] translate-y-[50%] z-0"/>
                 </div>
-                <div className="w-[46%] h-full relative border-2 border-black">
-                    <img src={rod} className="w-[74%] h-[55%] mt-[17%] rounded-bl-[40px] rounded-tr-[40px] z-10 relative"/>
-                    <img src={alum_circles3} className="w-28 h-28 absolute transform translate-x-[370%] translate-y-[-75%] z-0"/>
+                <div className="w-[46%] h-full relative">
+                    <img src={rod} className="w-[74%] h-[55%] mt-[17%] rounded-bl-[40px] rounded-tr-[40px] z-20 relative"/>
+                    <img src={alum_circles3} className="w-28 h-28 absolute transform translate-x-[370%] translate-y-[-75%] z-10"/>
+                    <img src={alum_circles4} className="w-8 h-8 absolute transform translate-x-[1580%] translate-y-[-430%] z-10 "/>
+                    <img src={alum_vector2} className="w-[80%] h-[130%] absolute transform translate-x-[25%] translate-y-[-53%] z-5 "/>
+                </div>
+            </div>
+
+            <div className="w-full h-[100px] bg-[#fff5eb]">
+
+            </div>
+
+            {/* connect */}
+            <div className="bg-white w-full flex flex-col items-center justify-start">
+                <div style={{ 
+                        backgroundImage: `url(${alum_picnic2})`, 
+                        backgroundColor: '#fff5eb', 
+                        backgroundBlendMode: 'overlay' 
+                    }} 
+                    className="w-full h-[752px] bg-cover bg-center flex items-center justify-center"
+                    >
+                    <div className="w-[42%] h-[300px] bg-white flex flex-col justify-start items-center px-12 py-10 rounded-tr-3xl rounded-bl-3xl border-2 border-black">
+                        <h1 className="font-[700] text-lg text-[#FFA523] tracking-[.1em]">INTERESTED?</h1>
+                        <h2 className="font-[600] text-4xl mt-3 text-[#FFA523]">Stay connected to learn more.</h2>
+                        <div className="w-[60%] h-1/3 flex flex-row mt-12 border-2 border-black">
+                        <a href="fusion.uci.networking@gmail.com">
+                            <img src={alum_email}/>
+                        </a>
+                        <a href="https://www.instagram.com/fusionatuci/" className="ml-9">
+                            <img src={alum_facebook}/>
+                        </a>
+                        <a href="linkedin.com/in/fusionatuci" className="ml-9">
+                            <img src={alum_linkedin}/>
+                        </a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -134,5 +169,11 @@ export function AlumniPage() {
 }
 
 export default AlumniPage;
+
+            {/* 
+alum_facebook
+alum_linkedin 
+alum_email
+         */}
 
 
