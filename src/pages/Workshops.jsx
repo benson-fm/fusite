@@ -6,7 +6,7 @@ const Workshops = () => {
     return (
         <>
             <div className="min-h-screen bg-white">
-                <main className="px-8 py-16">
+                <main>
                     <section className="relative mb-16">
                         <div className="relative text-center">
                             <img src={placeholderPic} alt="Placeholder" className="mx-auto" />
