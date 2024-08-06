@@ -26,9 +26,6 @@ import alum_linkedin from "../assets/alum_linkedin.png";
 import alum_email from "../assets/alum_email.png";
 
 
-
-
-
 export function AlumniPage() {
     return (
         <div className="flex flex-col overflow-x-hidden">
@@ -137,25 +134,25 @@ export function AlumniPage() {
             </div>
 
             {/* connect */}
-            <div className="bg-white w-full flex flex-col items-center justify-start">
+            <div className="bg-[#fff5eb] w-full flex flex-col items-center justify-start">
                 <div style={{ 
-                        backgroundImage: `url(${alum_picnic2})`, 
-                        backgroundColor: '#fff5eb', 
-                        backgroundBlendMode: 'overlay' 
+                         backgroundColor: '#fff5eb', 
+                         backgroundImage: `url(${alum_picnic2})`, 
+                         backgroundBlendMode: 'overlay',  
                     }} 
                     className="w-full h-[752px] bg-cover bg-center flex items-center justify-center"
                     >
-                    <div className="w-[42%] h-[300px] bg-white flex flex-col justify-start items-center px-12 py-10 rounded-tr-3xl rounded-bl-3xl border-2 border-black">
+                    <div className="w-[42%] h-[300px] bg-white flex flex-col justify-start items-center px-12 py-10 rounded-tr-3xl rounded-bl-3xl">
                         <h1 className="font-[700] text-lg text-[#FFA523] tracking-[.1em]">INTERESTED?</h1>
                         <h2 className="font-[600] text-4xl mt-3 text-[#FFA523]">Stay connected to learn more.</h2>
-                        <div className="w-[60%] h-1/3 flex flex-row mt-12 border-2 border-black">
-                        <a href="fusion.uci.networking@gmail.com">
+                        <div className="w-[60%] h-1/3 flex flex-row mt-12">
+                        <a href="mailto:fusion.uci.networking@gmail.com">
                             <img src={alum_email}/>
                         </a>
-                        <a href="https://www.instagram.com/fusionatuci/" className="ml-9">
+                        <a href="https://www.facebook.com/share/g/wjwN8JRRRo87pBLV/" className="ml-9">
                             <img src={alum_facebook}/>
                         </a>
-                        <a href="linkedin.com/in/fusionatuci" className="ml-9">
+                        <a href="https://www.linkedin.com/in/fusionatuci/" className="ml-9">
                             <img src={alum_linkedin}/>
                         </a>
                         </div>
