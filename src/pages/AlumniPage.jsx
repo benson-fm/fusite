@@ -71,10 +71,10 @@ export function AlumniPage() {
                     </div>
                     <img src={alum_vector1} className="w-80 h-60 absolute transform translate-y-[-207%] z-0"/>
                     <img src={alum_circles2} className="w-14 h-16 absolute transform translate-y-[-630%] translate-x-[270%] z-5"/>
-                    <img src={alum_shadow1} className="w-80 h-8 absolute transform translate-x-[100%] translate-y-[50%] z-0"/>
+                    <img src={alum_shadow1} className="w-80 h-8 absolute transform translate-x-[101%] translate-y-[50%] z-0"/>
                 </div>
-                <div className="w-[35%] h-full relative">
-                    <img src={fep_award} className="w-[90%] h-[55%] mt-[24%] rounded-bl-[40px] rounded-tr-[40px] z-10 relative"/>
+                <div className="w-[31%] h-full relative">
+                    <img src={fep_award} className="w-[450px] h-[54%] mt-[24%] rounded-bl-[40px] rounded-tr-[40px] z-10 relative"/>
                     <img src={alum_circles1} className="w-14 h-24 absolute transform translate-x-[728%] translate-y-[-75%] z-0"/>
                 </div>
                 <div className="flex flex-col flex-grow justify-start items-end">
@@ -85,7 +85,7 @@ export function AlumniPage() {
 
             {/* Network w pros */}
             <div className="w-full h-[540px] bg-white flex flex-row relative">
-                <img src={alum_picnic} className="w-[35%] h-[55%] mt-[8%] ml-[16%] z-10"></img>
+                <img src={alum_picnic} className="w-[500px] h-[54%] mt-[9%] ml-[16%] z-10"></img>
                 <div className="w-1/3 h-[65%] bg-[#f8f8f8] rounded-t-[60px] rounded-br-[60px] ml-[4%] mt-[7.5%] z-10">
                     <div className="w-[85%] ml-[7%]">
                         <h1 className="font-[700] text-[#FFA523] mt-[7%] tracking-[.1em]">CONNECT AND COLLABORATE &gt;&gt;</h1>
@@ -122,7 +122,7 @@ export function AlumniPage() {
                     <img src={alum_shadow3} className="w-72 h-8 absolute transform translate-x-[113%] translate-y-[50%] z-0"/>
                 </div>
                 <div className="w-[46%] h-full relative">
-                    <img src={rod} className="w-[74%] h-[55%] mt-[17%] rounded-bl-[40px] rounded-tr-[40px] z-20 relative"/>
+                    <img src={rod} className="w-[500px] h-[54%] mt-[17%] rounded-bl-[40px] rounded-tr-[40px] z-20 relative"/>
                     <img src={alum_circles3} className="w-28 h-28 absolute transform translate-x-[370%] translate-y-[-75%] z-10"/>
                     <img src={alum_circles4} className="w-8 h-8 absolute transform translate-x-[1580%] translate-y-[-430%] z-10 "/>
                     <img src={alum_vector2} className="w-[80%] h-[130%] absolute transform translate-x-[25%] translate-y-[-53%] z-5 "/>
