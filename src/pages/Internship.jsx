@@ -2,9 +2,9 @@ import Navbar from "../components/Navbar"
 import React from "react";
 import Footer from "../components/Footer";
 import HeaderBG from "../assets/InternHeaderBG.jpg"
-import Gear from "../assets/FullGear.png"
-import SunGear from "../assets/SunGear.png"
-import Sun from "../assets/FullSun.png"
+import Gear from "../assets/FullGear.svg"
+import SunGear from "../assets/SunGear.svg"
+import Sun from "../assets/FullSun.svg"
 import Divider from "../assets/InternDutyDivider.png"
 import Testimonial from "../components/Testimonial";
 import CayzPhoto from "../assets/CayzIntern.jpg"
@@ -12,7 +12,7 @@ import JhaneenPhoto from "../assets/JhaneenIntern.jpg"
 import ArlaghnPhoto from "../assets/ArlaghnIntern.jpg"
 import InternPhoto1 from "../assets/InternPhoto1.png"
 import InternPhoto2 from "../assets/InternPhoto2.png"
-import InternAppBg from "../assets/InternAppBG.png"
+import InternAppBg from "../assets/SiOnClass.png"
 import GrayDiamond from "../assets/GrayDiamond.png"
 import CornerTriangles from "../assets/CornerTriangles.png"
 import Dots1 from "../assets/Dots1.png"
@@ -21,12 +21,15 @@ import WhyInternBG from "../assets/WhyInternBG.png"
 import WhyInternRectangle1 from "../assets/WhyInternRectangle1.png"
 import WhyInternRectangle2 from "../assets/WhyInternRectangle2.png"
 import WhyInternRectangle3 from "../assets/WhyInternRectangle3.png"
+import BorderDetails1 from "../assets/BorderDetails1.svg"
+import BorderDetails2 from "../assets/BorderDetails2.svg"
+import YellowDiamond from "../assets/YellowDiamond.svg"
 
 const Internship = () => {
     return (
         <>
             <Navbar title="INTERNSHIP" subtitle="PROGRAMS" bg={HeaderBG}/>
-            <div className="my-40 mx-72 space-y-12 justify-center text-center">
+            <div className="my-40 mx-72 space-y-12 justify-center text-center bg-white">
                 <div className="font-semibold text-5xl">
                     <span className="text-[#FFA523] ">Intern</span> with FUSION!
                 </div>
@@ -55,7 +58,7 @@ const Internship = () => {
                         </div>
                     </div>
                     <div className="flex flex-col w-1/4 bg-white text-center p-8 space-y-4">
-                        <img src={SunGear} className="w-1/2 mx-auto -rotate-45"/>
+                        <img src={SunGear} className="w-1/2 mx-auto"/>
                         <div className="text-3xl font-bold">
                             Innovate
                         </div>
@@ -82,7 +85,7 @@ const Internship = () => {
                 <img src={CornerTriangles} className="absolute top-0 right-0 rotate-180"/>
                 <img src={Dots1} className="absolute top-48 right-44"/>
             </div>
-            <div className="relative space-y-4 py-40">
+            <div className="flex flex-col relative space-y-4 py-40 bg-white items-center">
                 <div className="text-center text-5xl font-semibold pb-16">
                     <span className="text-[#FAC80A] text-6xl font-bold">?</span> <span className="text-[#FFA523] text-8xl font-bold">?</span> <span className="text-[#FAC80A] text-6xl font-bold">?</span>
                     <br/>
@@ -120,17 +123,21 @@ const Internship = () => {
                 <img src={WhyInternBG} className="absolute bottom-0 right-0 -z-10"/>
                 <img src={WhyInternRectangle1} className="absolute top-32 left-32"/>
                 <img src={WhyInternRectangle2} className="absolute bottom-64 left-48"/>
-                <img src={WhyInternRectangle3} className="absolute left-32"/>
+                <img src={WhyInternRectangle3} className="absolute bottom-32 left-32"/>
                 <img src={WhyInternRectangle2} className="absolute top-64 right-48"/>
                 <img src={WhyInternRectangle3} className="absolute top-32 right-32"/>
             </div>
-            <div className="bg bg-center flex flex-row margin py-36"
-            style={{ backgroundImage: `url(${InternAppBg}) ` }}>
-                <div className="relative flex basis-1/4 justify-end">
+            <div className="relative bg bg-center bg-cover flex flex-row margin py-36"
+            style={{ backgroundImage: `url(${InternAppBg}) `}}>
+                <img src={BorderDetails1} className="absolute bottom-0"/>
+                <img src={BorderDetails2} className="absolute bottom-0 right-0"/>
+                <div className="absolute inset-0 w-full h-full bg-white bg-opacity-90"/>
+                <div className="relative flex basis-1/4 justify-end z-10">
                     <img src={InternPhoto1}/>
                     <img src={GrayDiamond} className="absolute left-1/3 -top-4"/>
+                    <img src={YellowDiamond} className="absolute left-1/4 top-3/4"/>
                 </div>
-                <div className="text-center basis-1/2 space-y-14">
+                <div className="text-center basis-1/2 space-y-14 z-10">
                     <div className="text-[#7D7D7D] text-2xl font-semibold tracking-wider">
                         EAGER TO COLLABORATE AND CONNECT?
                     </div>
@@ -143,6 +150,7 @@ const Internship = () => {
                 <div className="relative basis-1/4">
                     <img src={InternPhoto2}/>
                     <img src={GrayDiamond} className="absolute right-1/3 -bottom-3"/>
+                    <img src={YellowDiamond} className="absolute right-1/3 top-0"/>
                 </div>
             </div>
             <Footer/>
